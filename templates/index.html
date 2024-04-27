@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="genieBot" style="display:inline-block" method="POST" enctype="multipart/form-data" id="myForm">
+        <p style="color:white;">Choose which preset you would like to edit:</p><br>
+    
+        NAME<br>
+        <input type="text" name="name" id="name" value=""><br>
+    
+        YEAR<br>
+        <input type="radio" name="year"  value="1"> year 1<br>
+        <input type="radio" name="year"  value="2"> year 2<br>
+        <input type="radio" name="year"  value="3"> year 3<br>
+        
+        Hours Can work<br>
+        <input type="radio" name="hoursCanWork"  value="time1"> 0-10<br>
+        <input type="radio" name="hoursCanWork"  value="time2"> 11-20<br>
+        <input type="radio" name="hoursCanWork"  value="time3"> 21-30<br>
+    
+        FILE UPLOAD (YOUR TRANSCRIPT) <br>
+        <input type="file" id="myFile" name="file"><br>
+    
+        SUBMIT<br>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
+
+
