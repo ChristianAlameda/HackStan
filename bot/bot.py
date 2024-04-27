@@ -1,33 +1,20 @@
-import tensorflow as tf
 import rtx_api_3_5 as rtx_api
-import rtx_api_2_11 as rtx_api
 
 class Bot():
     def __init__(self):
         self.__chatbot = None
+        self.__url = None
+        self.__port = None
 
     def __del__(self):
         del self.__chatbot
 
-    def train(self, dataset=None):
-        conversation = [
-            "Hello",
-            "Hi there!",
-            "How are you doing?",
-            "I'm doing great.",
-            "That is good to hear",
-            "Thank you.",
-            "You're welcome."
-        ]
-
-        trainer = None
-
-        trainer.train(conversation)
-        print('Training completed.')
-        return True
-
-    def chat(self, input):
-        response = self.__chatbot.get_response(input)
-        print(response)
+    def chat(self, userInput):
+        response = rtx_api.send_message_public(userInput, self.__url, self.__port)
         return response
+    
+    def connect(self, test_url, test_port):
+        if rtx_api.connect(test_url, test_port):
+            self.__url = test_url
+            self.__port = test_port
 # end Bot
