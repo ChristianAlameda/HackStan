@@ -1,46 +1,46 @@
-Course Title, Course Code, Prerequisites, Required/Practice/Theory/Elective
-Professional Ethics, PHIL 4401, "None", Required
-Computer Programming I, CS 1500, "Two years of high school algebra", Required
-Computer Programming II, CS 2500, CS 1500, Required
-Assembly Language and Computer Architecture, CS 2700, CS 2500, Required
-Calculus I, MATH 1410, "MATH 1070 and MATH 1080, or MATH 1072 and MATH 1080, or MATH 1100, or Mathematics Placement category I/II and a passing score on the Calculus Placement Test", Required
-Calculus II, MATH 1420, MATH 1410, Required
-Probability and Statistics, MATH 1620, MATH 1410, Theory
-Statistics, MATH 1600, "Mathematics Placement category I or II", Theory
-Statistics with Support II, MATH 1602, MATH 1601, Theory
-Discrete Structures, MATH 2300, "MATH 1100 or both MATH 1070 and MATH 1080", Required
-General Physics I, PHYS 2250, MATH 1410, Practice
-General Physics I Laboratory, PHYS 2252, PHYS 2250 or concurrent enrollment in PHYS 2250, Practice
-General Physics II, PHYS 2260, "PHYS 2250 and MATH 1420 or concurrent enrollment in MATH 1420", Practice
-General Physics II Laboratory, PHYS 2262, PHYS 2260 or concurrent enrollment in PHYS 2260, Practice
-General Chemistry I, CHEM 1100, "MATH 1070, or MATH 1072, or MATH 1100", Practice
-General Chemistry I Laboratory, CHEM 1102, "MATH 1070, or MATH 1072, or MATH 1100", Practice
-General Chemistry II, CHEM 1110, CHEM 1100 and 1102, Practice
-General Chemistry II Laboratory, CHEM 1112, "CHEM 1100 and 1102", Practice
-General Biology I, BIOL 1050, "high school biology, satisfactory score on biology qualifying examination, or BIOL 1010", Practice
-General Biology II, BIOL 1150, BIOL 1050, Practice
-Data Structures and Algorithms, CS 3100, CS 2500, Required
-Computer Organization, CS 3740, CS 2700, Required
-Operating Systems I, CS 3750, "CS 3100 and CS 3740", Required
-Programming Languages (WP), CS 4100, CS 3100, Required
-Seminar in Computer Science, CS 4960, "Senior or co-enrollment in CS 4100", Required
-Compiler Theory, CS 4300, CS 4100, Theory, Elective
-Automata, Computability, and Formal Languages, CS 4410, "CS 3100 and MATH 2300", Theory, Elective
-Theory of Algorithms, CS 4440, "CS 3100 and MATH 2300", Theory, Elective
-Coding and Information Theory, CS 4450, "CS 3100 and MATH 2300", Theory, Elective
-Database Management Systems, CS 4250, CS 3100, Practice, Elective
-Ecommerce Systems Design, CS 4270, "CS 3100", Practice, Elective
-Software Engineering, CS 4800, CS 3100, Practice, Elective
-Communication Networks, CS 3000, CS 2500, Elective
-Nonlinear Systems and Chaos, CS 3150, "CS 1500 or COGS 2300", Elective
-Computer Simulation Techniques, CS 3200, "MATH 1600 or 1602 or 1610 or 1620, and CS 1500 or CIS 2010", Elective
-Neural Networks and Intelligent Machines, CS 3400, "CS 2500 or COGS 2300 or consent of instructor", Elective
-Human-Centered Design, CS 3500, "None", Elective
-Introduction to Computational Thinking, CS 3550, "None", Elective
-Computer Graphics I, CS 3600, CS 2500, Elective
-Android Mobile Application Development, CS 3810, CS 1500, Elective
-Computing for the Sciences, CS 4010, "None", Elective
-Cybersecurity Fundamentals, CS 4840, CS 3100, Elective
-Individual Study, CS 4980, Consent of instructor, Elective
-Systems Analysis and Design, CIS 4770, "CIS 2020 or CIS 2030 and CIS 3700", Elective
-Analog and Digital Electronics, PHYS 4250, PHYS 2260, Elective
+Course Code, Course Title, Units, Prerequisites, Required/Elective/Practice/Theory
+PHIL 4401, Professional Ethics, 3, "None", Required
+CS 1500, Computer Programming I, 3, "Two years of high school algebra", Required
+CS 2500, Computer Programming II, 3, CS 1500, Required
+CS 2700, Assembly Language and Computer Architecture, 3, CS 2500, Required
+MATH 1410, Calculus I, 4, "MATH 1070 and MATH 1080, or MATH 1072 and MATH 1080, or MATH 1100, or Mathematics Placement category I/II and a passing score on the Calculus Placement Test", Required
+MATH 1420, Calculus II, 4, MATH 1410, Required
+MATH 1620, Probability and Statistics, 4, MATH 1410, Theory
+MATH 1600, Statistics, 4, "Mathematics Placement category I or II", Theory
+MATH 1602, Statistics with Support II, 3, MATH 1601, Theory
+MATH 2300, Discrete Structures, 3, "MATH 1100 or both MATH 1070 and MATH 1080", Required
+PHYS 2250, General Physics I, 4, MATH 1410, Practice
+PHYS 2252, General Physics I Laboratory, 1, PHYS 2250 or concurrent enrollment in PHYS 2250, Practice
+PHYS 2260, General Physics II, 4, "PHYS 2250 and MATH 1420 or concurrent enrollment in MATH 1420", Practice
+PHYS 2262, General Physics II Laboratory, 1, PHYS 2260 or concurrent enrollment in PHYS 2260, Practice
+CHEM 1100, General Chemistry I, 4, "MATH 1070, or MATH 1072, or MATH 1100", Practice
+CHEM 1102, General Chemistry I Laboratory, 1, "MATH 1070, or MATH 1072, or MATH 1100", Practice
+CHEM 1110, General Chemistry II, 4, CHEM 1100 and 1102, Practice
+CHEM 1112, General Chemistry II Laboratory, 1, "CHEM 1100 and 1102", Practice
+BIOL 1050, General Biology I, 4, "high school biology, satisfactory score on biology qualifying examination, or BIOL 1010", Practice
+BIOL 1150, General Biology II, 4, BIOL 1050, Practice
+CS 3100, Data Structures and Algorithms, 3, CS 2500, Required
+CS 3740, Computer Organization, 3, CS 2700, Required
+CS 3750, Operating Systems I, 3, "CS 3100 and CS 3740", Required
+CS 4100, Programming Languages (WP), 3, CS 3100, Required
+CS 4960, Seminar in Computer Science, 1, "Senior or co-enrollment in CS 4100", Required
+CS 4300, Compiler Theory, 3, CS 4100, "Theory, Elective"
+CS 4410, "Automata, Computability, and Formal Languages", 3, "CS 3100 and MATH 2300", "Theory, Elective"
+CS 4440, Theory of Algorithms, 3, "CS 3100 and MATH 2300", "Theory, Elective"
+CS 4450, Coding and Information Theory, 3, "CS 3100 and MATH 2300", "Theory, Elective"
+CS 4250, Database Management Systems, 3, CS 3100, "Practice, Elective"
+CS 4270, Ecommerce Systems Design, 3, "CS 3100", "Practice, Elective"
+CS 4800, Software Engineering, 3, CS 3100, "Practice, Elective"
+CS 3000, Communication Networks, 3, CS 2500, Elective
+CS 3150, Nonlinear Systems and Chaos, 3, "CS 1500 or COGS 2300", Elective
+CS 3200, Computer Simulation Techniques, 3, "MATH 1600 or 1602 or 1610 or 1620, and CS 1500 or CIS 2010", Elective
+CS 3400, Neural Networks and Intelligent Machines, 3, "CS 2500 or COGS 2300 or consent of instructor", Elective
+CS 3500, Human-Centered Design, 3, "None", Elective
+CS 3550, Introduction to Computational Thinking, 3, "None", Elective
+CS 3600, Computer Graphics I, 3, CS 2500, Elective
+CS 3810, Android Mobile Application Development, 3, S 1500, Elective
+CS 4010, Computing for the Sciences, 3, "None", Elective
+CS 4840, Cybersecurity Fundamentals, 3, CS 3100, Elective
+CS 4980, Individual Study, 1-4, Consent of instructor, Elective
+CIS 4770, Systems Analysis and Design, 3, "CIS 2020 or CIS 2030 and CIS 3700", Elective
+PHYS 4250, Analog and Digital Electronics, 4, PHYS 2260, Elective
