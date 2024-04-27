@@ -1,5 +1,5 @@
 #Scheduling List for Fall 2024
-CourseCode+Sec#, Course Code, Course Title, Units, Instructor, Days, Time
+CourseCode+Sec#, Course Code, Course Title, Units, Instructor, Days, Time, Room
 CS1500 - 001, CS1500, Computer Programming I, 3, "Mendez, Ivan", MWF, 2:00P - 2:50P
 CS1500 - 002, CS1500, Computer Programming I (LAB), 0, "Mendez, Ivan", Arr, Arr
 CS1500 - 003, CS1500, Computer Programming I, 3, "TBA", TBA, TBA
@@ -82,18 +82,18 @@ CS4960 - 002, CS4960, Seminar in Computer Science, 1, "Kim, Dae Hee", W, 5:00P -
 CS4960 - 003, CS4960, Seminar in Computer Science, 1, "Liang, Xuejun", T, 3:30P - 4:20P
 CS4980 - 001, CS4980, Individual Study, 1-4, "Tenure Track, Faculty", Arr, Arr
 
-PHIL4401 - 001, PHIL4401, Professional Ethics, 3, "Albright, Ian", Arr, Arr
-PHIL4401 - 002, PHIL4401, Professional Ethics, 3, "Alvarez, Rocio", Arr, Arr
-PHIL4401 - 003, PHIL4401, Professional Ethics, 3, "Albright, Ian", MWF, 12:00P - 12:50P
-PHIL4401 - 004, PHIL4401, Professional Ethics, 3, "Alvarez, Rocio", MW, 12:00P - 12:50P
-PHIL4401 - 005, PHIL4401, Professional Ethics, 3, "Brown, Mark", Arr, Arr
-PHIL4401 - 006, PHIL4401, Professional Ethics, 3, "Nagel, Chris", Arr, Arr
-PHIL4401 - 007, PHIL4401, Professional Ethics, 3, "Brown, Mark", Arr, Arr
+PHIL4401 - 001, PHIL4401, Professional Ethics, 3, "Albright, Ian", Arr, Arr, "ONLINE 001"
+PHIL4401 - 002, PHIL4401, Professional Ethics, 3, "Alvarez, Rocio", Arr, Arr, "ONLINE 001"
+PHIL4401 - 003, PHIL4401, Professional Ethics, 3, "Albright, Ian", MWF, 12:00P - 12:50P, "CX 102"
+PHIL4401 - 004, PHIL4401, Professional Ethics, 3, "Alvarez, Rocio", MW, 12:00P - 12:50P, "S 104"
+PHIL4401 - 005, PHIL4401, Professional Ethics, 3, "Brown, Mark", Arr, Arr, "ONLINE 002"
+PHIL4401 - 006, PHIL4401, Professional Ethics, 3, "Nagel, Chris", Arr, Arr, "ONLINE 001"
+PHIL4401 - 007, PHIL4401, Professional Ethics, 3, "Brown, Mark", Arr, Arr, "ONLINE 001"
 
 MATH1410 - 001, MATH1410, Calculus I, 4, "Martin, David", MWF, 11:00A - 11:50A
 MATH1410 - 002, MATH1410, Calculus I, 4, "Wu, Yanhong", MWF, 2:00P - 2:50P
 MATH1412 - 001, MATH1412, Calculus I (LAB), 1, "Bortner, Cashous", M, 3:00P - 4:50P
-MATH1420 - 001, MATH1420, Calculus II, 4, "Jue, Brian", TMWF, 8:30A - 9:20A
+MATH1420 - 001, MATH1420, Calculus II, 4, "Jue, Brian", T, MWF, 8:30A - 9:20A
 MATH1422 - 001, MATH1422, Calculus II (LAB), 1, "Bortner, Cashous", W, 3:00P - 4:50P
 MATH 1620 - 001, MATH1620, Probability and Statistics, 4, "N/A, N/A", N/A
 MATH1600 - 001, MATH1600, Statistics, 4, "Wu, Yanhong", MWF, 12:00P - 12:50P
@@ -116,57 +116,56 @@ MATH1602 - 003, MATH1602, Statistics with Support II, 3, "Aghassi, Valeh", TR, 4
 MATH1602 - 004, MATH1602, Statistics with Support II (LAB), 3, "Aghassi, Valeh", TR, 5:00P - 5:50P
 MATH2300 - 001, MATH2300, Discrete Structures, 3, "Sarhad, Jonathan", MWF, 11:00A - 11:50A
 
-PHYS2250 - 001, PHYS2250, General Physics I, 4, "Veatch, Jason", MWF, 11:00A - 11:50A
-PHYS2250 - 002, PHYS2250, General Physics I (DIS), 0, "Veatch, Jason", T, 11:00A - 11:50A
-PHYS2252 - 001, PHYS2252, General Physics I (LAB), 1, "Part-Time Faculty", M, 2:00P - 4:50P
-PHYS2252 - 002, PHYS2252, General Physics I (LAB), 1, "Muoio, Ryan", T, 2:00P - 4:50P
-PHYS2260 - 001, PHYS2260, General Physics II, 4, "N/A, N/A", N/A, N/A
-PHYS2262 - 001, PHYS2262, General Physics II (LAB), 1, "N/A, N/A", N/A, N/A
-PHYS4250 - 001, PHYS4250, Analog and Digital Electronics, 4, "To, Wing", TR, 2:00P - 3:15P
-PHYS4250 - 002, PHYS4250, Analog and Digital Electronics (LAB), 0, "To, Wing", W, 2:00P - 4:50P
+PHYS2250 - 001, PHYS2250, General Physics I, 4, "Veatch, Jason", MWF, 11:00A - 11:50A, "DBH 166"
+PHYS2250 - 002, PHYS2250, General Physics I (DIS), 0, "Veatch, Jason", T, 11:00A - 11:50A, "B 210"
+PHYS2252 - 001, PHYS2252, General Physics I Laboratory, 1, "Part-Time Faculty", M, 2:00P - 4:50P, "N 121"
+PHYS2252 - 002, PHYS2252, General Physics I Laboratory, 1, "Muoio, Ryan", T, 2:00P - 4:50P, "N 121"
+PHYS2260 - 001, PHYS2260, General Physics II, 4, N/A, N/A, N/A, N/A
+PHYS2262 - 001, PHYS2262, General Physics II (LAB), 1, N/A, N/A, N/A, N/A
+PHYS4250 - 001, PHYS4250, Analog and Digital Electronics, 4, "To, Wing", TR, 2:00P - 3:15P, "N 130"
+PHYS4250 - 002, PHYS4250, Analog and Digital Electronics (LAB), 0, "To, Wing", W, 2:00P - 4:50P, "N 130"
 
-CHEM1100 - 001, CHEM1100, General Chemistry I, 4, "Stone, Koni", MWF, 10:00A - 10:50A
-CHEM1100 - 002, CHEM1100, General Chemistry I (DIS), 0, "Issavi, Halin", M, 1:00P - 1:50P
-CHEM1100 - 003, CHEM1100, General Chemistry I (DIS), 0, "Issavi, Halin", T, 12:00P - 12:50P
-CHEM1100 - 004, CHEM1100, General Chemistry I (DIS), 0, "Issavi, Halin", T, 1:00P - 1:50P
-CHEM1100 - 005, CHEM1100, General Chemistry I, 4, "Stessman, Y Nhu", MWF, 11:00A - 11:50A
-CHEM1100 - 006, CHEM1100, General Chemistry I (DIS), 0, "Brackett, Claudia", R, 12:00P - 12:50P
-CHEM1100 - 007, CHEM1100, General Chemistry I (DIS), 0, "Brackett, Claudia", R, 1:00P - 1:50P
-CHEM1100 - 008, CHEM1100, General Chemistry I (DIS), 0, "Brackett, Claudia", R, 2:00P - 2:50P
-CHEM1102 - 002, CHEM1102, General Chemistry I (LAB), 1, "Brackett, Claudia", T, 8:00A - 10:50A
-CHEM1102 - 003, CHEM1102, General Chemistry I (LAB), 1, "Russell, Scott", T, 2:00P - 4:50P
-CHEM1102 - 004, CHEM1102, General Chemistry I (LAB), 1, "Brackett, Claudia", T, 11:00A - 1:50P
-CHEM1102 - 005, CHEM1102, General Chemistry I (LAB), 1, "Brackett, Claudia", R, 8:00A - 10:50A
-CHEM1102 - 006, CHEM1102, General Chemistry I (LAB), 1, "Dunlap, Karen", W, 2:00P - 4:50P
-CHEM1102 - 007, CHEM1102, General Chemistry I (LAB), 1, "Russell, Scott", R, 2:00P - 4:50P
-CHEM1110 - 001, CHEM1110, General Chemistry II, 4, "Phillips, Shane", MWF, 1:00P - 1:50P
-CHEM1110 - 002, CHEM1110, General Chemistry II (DIS), 0, "Russell, Scott", W, 11:00A - 11:50A
-CHEM1110 - 003, CHEM1110, General Chemistry II (DIS), 0, "Russell, Scott", T, 11:00A - 11:50A
-CHEM1110 - 004, CHEM1110, General Chemistry II (DIS), 0, "Russell, Scott", R, 11:00A - 11:50A
-CHEM1110 - 005, CHEM1110, General Chemistry II (DIS), 0, "Russell, Scott", M, 11:00A - 11:50A
-CHEM1112 - 001, CHEM1112, General Chemistry II (LAB), 1, "Schara, Gonul", M, 2:00P - 4:50P
-CHEM1112 - 002, CHEM1112, General Chemistry II (LAB), 1, "Dunlap, Karen", T, 2:00P - 4:50P
-CHEM1112 - 003, CHEM1112, General Chemistry II (LAB), 1, "Schara, Gonul", R, 8:00A - 10:50A
-CHEM1112 - 004, CHEM1112, General Chemistry II (LAB), 1, "Dunlap, Karen", R, 2:00P - 4:50P
+CHEM1100 - 001, CHEM1100, General Chemistry I, 4, "Stone, Koni", MWF, 10:00A - 10:50A, "N 101"
+CHEM1100 - 002, CHEM1100, General Chemistry I (DIS), 0, "Issavi, Halin", M, 1:00P - 1:50P, "N 322"
+CHEM1100 - 003, CHEM1100, General Chemistry I (DIS), 0, "Issavi, Halin", T, 12:00P - 12:50P, "N 221"
+CHEM1100 - 004, CHEM1100, General Chemistry I (DIS), 0, "Issavi, Halin", T, 1:00P - 1:50P, "N 221"
+CHEM1100 - 005, CHEM1100, General Chemistry I, 4, "Stessman, Y Nhu", MWF, 11:00A - 11:50A, "N 101"
+CHEM1100 - 006, CHEM1100, General Chemistry I (DIS), 0, "Brackett, Claudia", R, 12:00P - 12:50P, "N 221"
+CHEM1100 - 007, CHEM1100, General Chemistry I (DIS), 0, "Brackett, Claudia", R, 1:00P - 1:50P, "N 221"
+CHEM1100 - 008, CHEM1100, General Chemistry I (DIS), 0, "Brackett, Claudia", R, 2:00P - 2:50P, "N 221"
+CHEM1102 - 002, CHEM1102, General Chemistry I (LAB), 1, "Brackett, Claudia", T, 8:00A - 10:50A, "N 301"
+CHEM1102 - 003, CHEM1102, General Chemistry I (LAB), 1, "Russell, Scott", T, 2:00P - 4:50P, "N 301"
+CHEM1102 - 004, CHEM1102, General Chemistry I (LAB), 1, "Brackett, Claudia", T, 11:00A - 1:50P, "N 301"
+CHEM1102 - 005, CHEM1102, General Chemistry I (LAB), 1, "Brackett, Claudia", R, 8:00A - 10:50A, "N 301"
+CHEM1102 - 006, CHEM1102, General Chemistry I (LAB), 1, "Dunlap, Karen", W, 2:00P - 4:50P, "N 301"
+CHEM1102 - 007, CHEM1102, General Chemistry I (LAB), 1, "Russell, Scott", R, 2:00P - 4:50P, "N 301"
+CHEM1110 - 001,CHEM1110,General Chemistry II,4,"Phillips, Shane",MWF,1:00P - 1:50P,"DBH 167"
+CHEM1110 - 002,CHEM1110,General Chemistry II (DIS),0,"Russell, Scott",W,11:00A - 11:50A,"S 137"
+CHEM1110 - 003,CHEM1110,General Chemistry II (DIS),0,"Russell, Scott",T,11:00A - 11:50A,"N 221"
+CHEM1110 - 004,CHEM1110,General Chemistry II (DIS),0,"Russell, Scott",R,11:00A - 11:50A,"S 129"
+CHEM1110 - 005,CHEM1110,General Chemistry II (DIS),0,"Russell, Scott",M,11:00A - 11:50A,"S 137"
+CHEM1112 - 001,CHEM1112,General Chemistry II (LAB),1,"Schara, Gonul",M,2:00P - 4:50P,"N 301"
+CHEM1112 - 002,CHEM1112,General Chemistry II (LAB),1,"Dunlap, Karen",T,2:00P - 4:50P,"N 321"
+CHEM1112 - 003,CHEM1112,General Chemistry II (LAB),1,"Schara, Gonul",R,8:00A - 10:50A,"N 321"
+CHEM1112 - 004,CHEM1112,General Chemistry II (LAB),1,"Dunlap, Karen",R,2:00P - 4:50P,"N 321"
 
-BIOL1050 - 001, BIOL1050, General Biology I, 4, "Gerson, Marina", MWF, 9:00A - 9:50A
-BIOL1050 - 002, BIOL1050, General Biology I (LAB), 0, "Guernsey, Michael", W, 1:00P - 3:50P
-BIOL1050 - 003, BIOL1050, General Biology I (LAB), 0, "Part-Time Faculty", F, 11:00A - 1:50P
-BIOL1050 - 004, BIOL1050, General Biology I (LAB), 0, "Part-Time Faculty", T, 9:00A - 11:50A
-BIOL1050 - 005, BIOL1050, General Biology I, 4, "Bissonnette, Sarah", TR, 9:30A - 10:45A
-BIOL1050 - 006, BIOL1050, General Biology I (LAB), 0, "Part-Time Faculty", T, 12:00P - 2:50P
-BIOL1050 - 007, BIOL1050, General Biology I (LAB), 0, "Bissonnette, Sarah", R, 12:00P - 2:50P
-BIOL1050 - 008, BIOL1050, General Biology I (LAB), 0, "Channing, Sally", T, 6:00P - 8:50P
-BIOL1050 - 009, BIOL1050, General Biology I (LAB), 0, "Dulai, Kanwaljit", R, 8:00A - 10:50A
-BIOL1050 - 010, BIOL1050, General Biology I (LAB), 0, "Newton, Jamila", F, 8:00A - 10:50A
-BIOL1150 - 001, BIOL1150, General Biology II, 4, "Bhaduri, Ritindra", TR, 12:30P - 1:45P
-BIOL1150 - 002, BIOL1150, General Biology II (LAB), 0, "Pirlo, Jeanette", T, 9:30A - 12:20P
-BIOL1150 - 003, BIOL1150, General Biology II (LAB), 0, "Bhaduri, Ritindra", T, 5:00P - 7:50P
-BIOL1150 - 004, BIOL1150, General Biology II (LAB), 0, "Emerson, Sara", W, 2:00P - 4:50P
-BIOL2310 - 001, BIOL2310, Human Genetics, 3, "Dulai, Kanwaljit", TR, 2:00P - 3:15P
+BIOL1050 - 001,BIOL1050,General Biology I,4,"Gerson, Marina",MWF,9:00A - 9:50A,"B 102"
+BIOL1050 - 002,BIOL1050,General Biology I (LAB),0,"Guernsey, Michael",W,1:00P - 3:50P,"N 211"
+BIOL1050 - 003,BIOL1050,General Biology I (LAB),0,"Part-Time Faculty",F,11:00A - 1:50P,"N 211"
+BIOL1050 - 004,BIOL1050,General Biology I (LAB),0,"Part-Time Faculty",T,9:00A - 11:50A,"N 211"
+BIOL1050 - 005,BIOL1050,General Biology I,4,"Bissonnette, Sarah",TR,9:30A - 10:45A,"N 101"
+BIOL1050 - 006,BIOL1050,General Biology I (LAB),0,"Part-Time Faculty",T,12:00P - 2:50P,"N 211"
+BIOL1050 - 007,BIOL1050,General Biology I (LAB),0,"Bissonnette, Sarah",R,12:00P - 2:50P,"N 211"
+BIOL1050 - 008,BIOL1050,General Biology I (LAB),0,"Channing, Sally",T,6:00P - 8:50P,"N 211"
+BIOL1050 - 009,BIOL1050,General Biology I (LAB),0,"Dulai, Kanwaljit",R,8:00A - 10:50A,"N 211"
+BIOL1050 - 010,BIOL1050,General Biology I (LAB),0,"Newton, Jamila",F,8:00A - 10:50A,"N 211"
+BIOL1150 - 001,BIOL1150,General Biology II,4,"Bhaduri, Ritindra",TR,12:30P - 1:45P,"N 104"
+BIOL1150 - 002,BIOL1150,General Biology II (LAB),0,"Pirlo, Jeanette",T,9:30A - 12:20P,"N 206"
+BIOL1150 - 003,BIOL1150,General Biology II (LAB),0,"Bhaduri, Ritindra",T,5:00P - 7:50P,"N 206"
+BIOL1150 - 004,BIOL1150,General Biology II (LAB),0,"Emerson, Sara",W,2:00P - 4:50P,"N 206"
 
-CIS4770 - 001, CIS4770, Systems Analysis and Design, 3, "Panagopoulos, Orestis Panos", W, 1:00P - 2:50P
-CIS4770 - 002, CIS4770, Systems Analysis and Design (LAB), 0, "Panagopoulos, Orestis Panos", W, 3:00P - 4:50P
+CIS4770 - 001, CIS4770, Systems Analysis and Design, 3, "Panagopoulos, Orestis Panos", W, 1:00P - 2:50P, "DBH 106"
+CIS4770 - 002, CIS4770, Systems Analysis and Design (LAB), 0, "Panagopoulos, Orestis Panos", W, 3:00P - 4:50P, "DBH 106"
 
 
 

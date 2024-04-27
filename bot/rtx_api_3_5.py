@@ -9,30 +9,19 @@ port = None
 def find_chat_with_rtx_port():
     global port
     connections = psutil.net_connections(kind='inet')
-    test_port = 17721
-    url = f"http://127.0.0.1:{test_port}/queue/join"
-    response = requests.post(url, data="", timeout=0.05)
-    port = test_port
-    if response.status_code == 422:
-        port = test_port
-        return
-    
-    # for host in connections:
-    #     try:
-    #         if host.pid:
-    #             process = psutil.Process(host.pid)
-                
-    #             if "chat" in process.exe().lower() and "with" in process.exe().lower() and "rtx" in process.exe().lower():
-    #                 print(process.exe())
-    #             if "Chat_with_RTX" in process.exe():
-    #                 test_port = host.laddr.port
-    #                 url = f"http://127.0.0.1:{test_port}/queue/join"
-    #                 response = requests.post(url, data="", timeout=0.05)
-    #                 if response.status_code == 422:
-    #                     port = test_port
-    #                     return
-    #     except:
-    #         pass
+    for host in connections:
+        try:
+            if host.pid:
+                process = psutil.Process(host.pid)
+                if "ChatWithRTX" in process.exe():
+                    test_port = host.laddr.port
+                    url = f"http://127.0.0.1:{test_port}/queue/join"
+                    response = requests.post(url, data="", timeout=0.05)
+                    if response.status_code == 422:
+                        port = test_port
+                        return
+        except:
+            pass
 
 def join_queue(session_hash, fn_index, port, chatdata):
     #fn_indexes are some gradio generated indexes from rag/trt/ui/user_interface.py
@@ -67,6 +56,29 @@ def listen_for_updates(session_hash, port):
 def send_message(message):
     if not port:
         find_chat_with_rtx_port()
+    if not port:
+        raise Exception("Failed to find a server port for 'Chat with RTX'. Ensure the server is running.")
+
+    session_hash = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
+
+    #add chat history here -v
+    chatdata = [[[message, None]], None]
+    join_queue(session_hash, 34, port, chatdata)
+    return listen_for_updates(session_hash, port)
+
+def connect(test_url, test_port):
+    global port
+    url = f"http://"+test_url+":{test_port}/queue/join"
+    response = requests.post(url, data="", timeout=0.05)
+    if response.status_code == 422:
+        port = test_port
+        return False
+    else:
+        return True
+
+def send_message_public(message, test_url, test_port):
+    if not port:
+        connect(test_url, test_port)
     if not port:
         raise Exception("Failed to find a server port for 'Chat with RTX'. Ensure the server is running.")
 

@@ -1,33 +1,34 @@
-import tensorflow as tf
 import rtx_api_3_5 as rtx_api
-import rtx_api_2_11 as rtx_api
+from threading import Thread
 
 class Bot():
     def __init__(self):
-        self.__chatbot = None
+        self.__url = None
+        self.__port = None
+        self.__history = []
+        self.__threads = []
 
     def __del__(self):
-        del self.__chatbot
+        del self.__url, self.__port, self.__history
 
-    def train(self, dataset=None):
-        conversation = [
-            "Hello",
-            "Hi there!",
-            "How are you doing?",
-            "I'm doing great.",
-            "That is good to hear",
-            "Thank you.",
-            "You're welcome."
-        ]
-
-        trainer = None
-
-        trainer.train(conversation)
-        print('Training completed.')
-        return True
-
-    def chat(self, input):
-        response = self.__chatbot.get_response(input)
-        print(response)
+    def chat(self, userInput):
+        self.__threads.append(Thread(target=self.__history.append, name='input', args=userInput))
+        self.__threads[-1].start()
+        if not self.__url:
+            print('No connection. Please connect to the server first.')
+            return 'No connection.' 
+        response = rtx_api.send_message_public(userInput, self.__url, self.__port)
+        if self.__threads[-1].is_alive():
+            self.__threads[-1].join()
+        self.__threads.pop()
+        self.__history.append(response)
         return response
+    
+    def connect(self, test_url, test_port):
+        if rtx_api.connect(test_url, test_port):
+            self.__url = test_url
+            self.__port = test_port
+
+    def getHistory(self):
+        return self.__history
 # end Bot
