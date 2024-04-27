@@ -1,171 +1,172 @@
-Course Code and Section Number, Course Code, Course Title, Units, Instructors, Days, Times
-CS1500 - 001, CS1500, Computer Programming I, 3, Mendez, Ivan, MWF, 2:00P - 2:50P
-CS1500 - 002, CS1500, Computer Programming I (LAB), 0, Mendez, Ivan, Arr, Arr
-CS1500 - 003, CS1500, Computer Programming I, 3, TBA, TBA, TBA
-CS1500 - 004, CS1500, Computer Programming I (LAB), 0, TBA, TBA, TBA
-CS1500 - 005, CS1500, Computer Programming I, 3, TBA, W, 6:00P - 8:40P
-CS1500 - 006, CS1500, Computer Programming I (LAB), 0, TBA, Arr, Arr
-CS1500 - 007, CS1500, Computer Programming I, 3, Peyour, Sargon, T, 6:00P - 8:40P
-CS1500 - 008, CS1500, Computer Programming I (LAB), 0, Peyour, Sargon, Arr, Arr
-CS1500 - 009, CS1500, Computer Programming I, 3, Peyour, Sargon, R, 6:00P - 8:40P
-CS1500 - 010, CS1500, Computer Programming I (LAB), 0, Peyour, Sargon, Arr, Arr
-CS1500 - 011, CS1500, Computer Programming I, 3, Mendez, Ivan, MWF, 1:00P - 1:50P
-CS1500 - 012, CS1500, Computer Programming I (LAB), 0, Mendez, Ivan, Arr, Arr
-CS1500 - 013, CS1500, Computer Programming I, 3, Mendez, Ivan, MWF, 12:00P - 12:50P
-CS1500 - 014, CS1500, Computer Programming I (LAB), 0, Mendez, Ivan, Arr, Arr
-CS2500 - 001, CS2500, Computer Programming II, 3, Shah, Prerak, T, 6:00P - 8:40P
-CS2500 - 002, CS2500, Computer Programming II (LAB), 0, Shah, Prerak, Arr, Arr
-CS2500 - 003, CS2500, Computer Programming II, 3, Shah, Prerak, W, 6:00P - 8:40P
-CS2500 - 004, CS2500, Computer Programming II (LAB), 0, Shah, Prerak, Arr, Arr
-CS2700 - 001, CS2700, Assembly Lang & Comp Archit, 3, TBA, TBA, TBA
-CS2700 - 002, CS2700, Assembly Lang & Comp Archit (LAB), 0, TBA, TBA, TBA
-CS2700 - 003, CS2700, Assembly Lang & Comp Archit, 3, Mendez, Ivan, MWF, 11:00A - 11:50A
-CS2700 - 004, CS2700, Assembly Lang & Comp Archit (LAB), 0, Mendez, Ivan, Arr, Arr
-CS3000 - 001, CS3000, Communication Networks, 3, Kim, Dae Hee, TR, 11:00A - 12:15P
-CS3000 - 002, CS3000, Communication Networks (LAB), 0, Kim, Dae Hee, Arr, Arr
-CS3100 - 001, CS3100, Data Structures and Algorithms, 3, Hatem, Ayat, MWF, 12:00P - 12:50P
-CS3100 - 002, CS3100, Data Structures and Algorithms (LAB), 0, Hatem, Ayat, Arr, Arr
-CS3100 - 003, CS3100, Data Structures and Algorithms, 3, Hatem, Ayat, MWF, 11:00A - 11:50A
-CS3100 - 004, CS3100, Data Structures and Algorithms (LAB), 0, Hatem, Ayat, Arr, Arr
-CS3100 - 005, CS3100, Data Structures and Algorithms, 3, Koh, Kyu Han, Arr, Arr
-CS3100 - 006, CS3100, Data Structures and Algorithms (LAB), 0, Koh, Kyu Han, Arr, Arr
-CS3100 - 007, CS3100, Data Structures and Algorithms, 3, Tenure Track, Faculty, TR, 11:00A - 12:15P
-CS3100 - 008, CS3100, Data Structures and Algorithms (LAB), 0, Tenure Track, Faculty, Arr, Arr
-CS3200 - 001, CS3200, Computer Simulation Techniques, 3, Carter, Thomas, TR, 2:00P - 3:15P
-CS3200 - 002, CS3200, Computer Simulation Techniques (LAB), 0, Carter, Thomas, Arr, Arr
-CS3500 - 001, CS3500, Human-Centered Design, 3, Koh, Kyu Han, MWF, 12:00P - 12:50P
-CS3550 - 001, CS3550, Intro to Computational Think, 3, Koh, Kyu Han, MWF, 3:00P - 3:50P
-CS3740 - 001, CS3740, Computer Organization, 3, Grujic, Olivera, TR, 11:00A - 12:15P
-CS3740 - 002, CS3740, Computer Organization, 3, Grujic, Olivera, TR, 12:30P - 1:45P
-CS3740 - 003, CS3740, Computer Organization, 3, Grujic, Olivera, TR, 3:30P - 4:45P
-CS3750 - 001, CS3750, Operating Systems I, 3, Thomas, Megan, TR, 12:30P - 1:45P
-CS3750 - 002, CS3750, Operating Systems I (LAB), 0,Thomas, Megan, Arr, Arr
-CS3750 - 003, CS3750, Operating Systems I, 3, Tenure Track, Faculty, TR, 2:00P - 3:15P
-CS3750 - 004, CS3750, Operating Systems I (LAB), 0, Tenure Track, Faculty, Arr, Arr
-CS4000 - 001, CS4000, Personal Computing, 3, Cash, Joseph, Arr, Arr
-CS4000 - 002, CS4000, Personal Computing (LAB), 0, Cash, Joseph, Arr, Arr
-CS4000 - 003, CS4000, Personal Computing (LAB), 0, Cash, Joseph, Arr, Arr
-CS4000 - 004, CS4000, Personal Computing (LAB), 0, Cash, Joseph, Arr, Arr
-CS4000 - 005, CS4000, Personal Computing, 3, Cash, Joseph, Arr, Arr
-CS4000 - 006, CS4000, Personal Computing (LAB), 0, Cash, Joseph, Arr, Arr
-CS4000 - 007, CS4000, Personal Computing (LAB), 0, Cash, Joseph, Arr, Arr
-CS4000 - 008, CS4000, Personal Computing (LAB), 0, Cash, Joseph, Arr, Arr
-CS4000 - 021, CS4000, Personal Computing, 3, Gomez, Debra, MW, 12:00P - 12:50P
-CS4000 - 022, CS4000, Personal Computing (LAB), 0, Gomez, Debra, M, 1:00P - 1:50P
-CS4000 - 023, CS4000, Personal Computing, 3, Gomez, Debra, MW, 2:00P - 2:50P
-CS4000 - 024, CS4000, Personal Computing (LAB), 0, Gomez, Debra, W, 1:00P - 1:50P
-CS4010 - 001, CS4010, Computing for the Sciences, 3, Morsony, Brian, MWF, 9:00A - 9:50A
-CS4010 - 002, CS4010, Computing for the Sciences (ACT), 0, Morsony, Brian, Arr, Arr
-CS4100 - 001, CS4100, Programming Languages (WP), 3, Thomas, Megan, MWF, 1:00P - 1:50P
-CS4100 - 002, CS4100, Programming Languages (WP), 3, Hatem, Ayat, MWF, 9:00A - 9:50A
-CS4250 - 001, CS4250, Database Management Systems, 3, Thomas, Megan, MWF, 10:00A - 10:50A
-CS4250 - 002, CS4250, Database Management Systems (LAB), 0, Thomas, Megan, Arr, Arr
-CS4270 - 001, CS4270, Ecommerce Systems Design, 0, Kim, Dae Hee, MWF, 12:00P - 12:50P
-CS4270 - 002, CS4270, Ecommerce Systems Design (LAB), 0, Kim, Dae Hee, Arr, Arr
-CS4280 - 001, CS4280, NoSQL Database Systems, 3, Kim, Dae Hee, MWF, 2:00P - 2:50P
-CS4280 - 002, CS4280, NoSQL Database Systems (LAB), 0, Kim, Dae Hee, Arr, Arr
-CS4300 - 001, CS4300, Compiler Theory, 3, Liang, Xuejun, TR, 9:30A - 10:45A
-CS4300 - 002, CS4300, Compiler Theory (LAB), 0, Liang, Xuejun, Arr, Arr
-CS4410 - 001, CS4410, Automata Comp & Formal Lang, 3, Liang, Xuejun, MWF, 1:00P - 1:50P
-CS4410 - 002, CS4410, Automata Comp & Formal Lang, 3, Tenure Track, Faculty, MWF, 10:00A - 10:50A
-CS4440 - 001, CS4440, Theory of Algorithms, 3, Liang, Xuejun, TR, 2:00P - 3:15P
-CS4480 - 001, CS4480, Artificial Intelligence, 3, Koh, Kyu Han, Arr, Arr
-CS4480 - 002, CS4480, Artificial Intelligence (LAB), 0, Koh, Kyu Han, Arr, Arr
-CS4520 - 001, CS4520, Graph Data Analytics, 3, Hatem, Ayat, MWF, 10:00A - 10:50A
-CS4520 - 002, CS4520, Graph Data Analytics (ACT), 0, Hatem, Ayat, Arr, Arr
-CS4840 - 001, CS4840, Cybersecurity Fundamentals, 3, Grujic, Olivera, MWF, 3:00P - 3:50P
-CS4840 - 002, CS4840, Cybersecurity Fundamentals (LAB), 0, Grujic, Olivera, Arr, Arr
-CS4910 - 001, CS4910, Cooperative Education, 1-3, Tenure Track, Faculty, Arr, Arr
-CS4960 - 001, CS4960, Seminar in Computer Science, 1, Koh, Kyu Han, R, 3:30P - 4:20P
-CS4960 - 002, CS4960, Seminar in Computer Science, 1, Kim, Dae Hee, W, 5:00P - 5:50P
-CS4960 - 003, CS4960, Seminar in Computer Science, 1, Liang, Xuejun, T, 3:30P - 4:20P
-CS4980 - 001, CS4980, Individual Study, 1-4, Tenure Track, Faculty, Arr, Arr
+#Scheduling List for Fall 2024
+CourseCode+Sec#,Course Code,Course Title,Units,Instructor,Days,Time,Room
+CS1500 - 001, CS1500, Computer Programming I, 3, "Mendez, Ivan", MWF, 2:00P - 2:50P
+CS1500 - 002, CS1500, Computer Programming I (LAB), 0, "Mendez, Ivan", Arr, Arr
+CS1500 - 003, CS1500, Computer Programming I, 3, "TBA", TBA, TBA
+CS1500 - 004, CS1500, Computer Programming I (LAB), 0, "TBA", TBA, TBA
+CS1500 - 005, CS1500, Computer Programming I, 3, "TBA", W, 6:00P - 8:40P
+CS1500 - 006, CS1500, Computer Programming I (LAB), 0, "TBA", Arr, Arr
+CS1500 - 007, CS1500, Computer Programming I, 3, "Peyour, Sargon", T, 6:00P - 8:40P
+CS1500 - 008, CS1500, Computer Programming I (LAB), 0, "Peyour, Sargon", Arr, Arr
+CS1500 - 009, CS1500, Computer Programming I, 3, "Peyour, Sargon", R, 6:00P - 8:40P
+CS1500 - 010, CS1500, Computer Programming I (LAB), 0, "Peyour, Sargon", Arr, Arr
+CS1500 - 011, CS1500, Computer Programming I, 3, "Mendez, Ivan", MWF, 1:00P - 1:50P
+CS1500 - 012, CS1500, Computer Programming I (LAB), 0, "Mendez, Ivan", Arr, Arr
+CS1500 - 013, CS1500, Computer Programming I, 3, "Mendez, Ivan", MWF, 12:00P - 12:50P
+CS1500 - 014, CS1500, Computer Programming I (LAB), 0, "Mendez, Ivan", Arr, Arr
+CS2500 - 001, CS2500, Computer Programming II, 3, "Shah, Prerak", T, 6:00P - 8:40P
+CS2500 - 002, CS2500, Computer Programming II (LAB), 0, "Shah, Prerak", Arr, Arr
+CS2500 - 003, CS2500, Computer Programming II, 3, "Shah, Prerak", W, 6:00P - 8:40P
+CS2500 - 004, CS2500, Computer Programming II (LAB), 0, "Shah, Prerak", Arr, Arr
+CS2700 - 001, CS2700, Assembly Lang & Comp Archit, 3, "TBA", TBA, TBA
+CS2700 - 002, CS2700, Assembly Lang & Comp Archit (LAB), 0, "TBA", TBA, TBA
+CS2700 - 003, CS2700, Assembly Lang & Comp Archit, 3, "Mendez, Ivan", MWF, 11:00A - 11:50A
+CS2700 - 004, CS2700, Assembly Lang & Comp Archit (LAB), 0, "Mendez, Ivan", Arr, Arr
+CS3000 - 001, CS3000, Communication Networks, 3, "Kim, Dae Hee", TR, 11:00A - 12:15P
+CS3000 - 002, CS3000, Communication Networks (LAB), 0, "Kim, Dae Hee", Arr, Arr
+CS3100 - 001, CS3100, Data Structures and Algorithms, 3, "Hatem, Ayat", MWF, 12:00P - 12:50P
+CS3100 - 002, CS3100, Data Structures and Algorithms (LAB), 0, "Hatem, Ayat", Arr, Arr
+CS3100 - 003, CS3100, Data Structures and Algorithms, 3, "Hatem, Ayat", MWF, 11:00A - 11:50A
+CS3100 - 004, CS3100, Data Structures and Algorithms (LAB), 0, "Hatem, Ayat", Arr, Arr
+CS3100 - 005, CS3100, Data Structures and Algorithms, 3, "Koh, Kyu Han", Arr, Arr
+CS3100 - 006, CS3100, Data Structures and Algorithms (LAB), 0, "Koh, Kyu Han", Arr, Arr
+CS3100 - 007, CS3100, Data Structures and Algorithms, 3, "Tenure Track, Faculty", TR, 11:00A - 12:15P
+CS3100 - 008, CS3100, Data Structures and Algorithms (LAB), 0, "Tenure Track, Faculty", Arr, Arr
+CS3200 - 001, CS3200, Computer Simulation Techniques, 3, "Carter, Thomas", TR, 2:00P - 3:15P
+CS3200 - 002, CS3200, Computer Simulation Techniques (LAB), 0, "Carter, Thomas", Arr, Arr
+CS3500 - 001, CS3500, Human-Centered Design, 3, "Koh, Kyu Han", MWF, 12:00P - 12:50P
+CS3550 - 001, CS3550, Intro to Computational Think, 3, "Koh, Kyu Han", MWF, 3:00P - 3:50P
+CS3740 - 001, CS3740, Computer Organization, 3, "Grujic, Olivera", TR, 11:00A - 12:15P
+CS3740 - 002, CS3740, Computer Organization, 3, "Grujic, Olivera", TR, 12:30P - 1:45P
+CS3740 - 003, CS3740, Computer Organization, 3, "Grujic, Olivera", TR, 3:30P - 4:45P
+CS3750 - 001, CS3750, Operating Systems I, 3, "Thomas, Megan", TR, 12:30P - 1:45P
+CS3750 - 002, CS3750, Operating Systems I (LAB), 0, "Thomas, Megan", Arr, Arr
+CS3750 - 003, CS3750, Operating Systems I, 3, "Tenure Track, Faculty", TR, 2:00P - 3:15P
+CS3750 - 004, CS3750, Operating Systems I (LAB), 0, "Tenure Track, Faculty", Arr, Arr
+CS4000 - 001, CS4000, Personal Computing, 3, "Cash, Joseph", Arr, Arr
+CS4000 - 002, CS4000, Personal Computing (LAB), 0, "Cash, Joseph", Arr, Arr
+CS4000 - 003, CS4000, Personal Computing (LAB), 0, "Cash, Joseph", Arr, Arr
+CS4000 - 004, CS4000, Personal Computing (LAB), 0, "Cash, Joseph", Arr, Arr
+CS4000 - 005, CS4000, Personal Computing, 3, "Cash, Joseph", Arr, Arr
+CS4000 - 006, CS4000, Personal Computing (LAB), 0, "Cash, Joseph", Arr, Arr
+CS4000 - 007, CS4000, Personal Computing (LAB), 0, "Cash, Joseph", Arr, Arr
+CS4000 - 008, CS4000, Personal Computing (LAB), 0, "Cash, Joseph", Arr, Arr
+CS4000 - 021, CS4000, Personal Computing, 3, "Gomez, Debra", MW, 12:00P - 12:50P
+CS4000 - 022, CS4000, Personal Computing (LAB), 0, "Gomez, Debra", M, 1:00P - 1:50P
+CS4000 - 023, CS4000, Personal Computing, 3, "Gomez, Debra", MW, 2:00P - 2:50P
+CS4000 - 024, CS4000, Personal Computing (LAB), 0, "Gomez, Debra", W, 1:00P - 1:50P
+CS4010 - 001, CS4010, Computing for the Sciences, 3, "Morsony, Brian", MWF, 9:00A - 9:50A
+CS4010 - 002, CS4010, Computing for the Sciences (ACT), 0, "Morsony, Brian", Arr, Arr
+CS4100 - 001, CS4100, Programming Languages (WP), 3, "Thomas, Megan", MWF, 1:00P - 1:50P
+CS4100 - 002, CS4100, Programming Languages (WP), 3, "Hatem, Ayat", MWF, 9:00A - 9:50A
+CS4250 - 001, CS4250, Database Management Systems, 3, "Thomas, Megan", MWF, 10:00A - 10:50A
+CS4250 - 002, CS4250, Database Management Systems (LAB), 0, "Thomas, Megan", Arr, Arr
+CS4270 - 001, CS4270, Ecommerce Systems Design, 0, "Kim, Dae Hee", MWF, 12:00P - 12:50P
+CS4270 - 002, CS4270, Ecommerce Systems Design (LAB), 0, "Kim, Dae Hee", Arr, Arr
+CS4280 - 001, CS4280, NoSQL Database Systems, 3, "Kim, Dae Hee", MWF, 2:00P - 2:50P
+CS4280 - 002, CS4280, NoSQL Database Systems (LAB), 0, "Kim, Dae Hee", Arr, Arr
+CS4300 - 001, CS4300, Compiler Theory, 3, "Liang, Xuejun", TR, 9:30A - 10:45A
+CS4300 - 002, CS4300, Compiler Theory (LAB), 0, "Liang, Xuejun", Arr, Arr
+CS4410 - 001, CS4410, Automata Comp & Formal Lang, 3, "Liang, Xuejun", MWF, 1:00P - 1:50P
+CS4410 - 002, CS4410, Automata Comp & Formal Lang, 3, "Tenure Track, Faculty", MWF, 10:00A - 10:50A
+CS4440 - 001, CS4440, Theory of Algorithms, 3, "Liang, Xuejun", TR, 2:00P - 3:15P
+CS4480 - 001, CS4480, Artificial Intelligence, 3, "Koh, Kyu Han", Arr, Arr
+CS4480 - 002, CS4480, Artificial Intelligence (LAB), 0, "Koh, Kyu Han", Arr, Arr
+CS4520 - 001, CS4520, Graph Data Analytics, 3, "Hatem, Ayat", MWF, 10:00A - 10:50A
+CS4520 - 002, CS4520, Graph Data Analytics (ACT), 0, "Hatem, Ayat", Arr, Arr
+CS4840 - 001, CS4840, Cybersecurity Fundamentals, 3, "Grujic, Olivera", MWF, 3:00P - 3:50P
+CS4840 - 002, CS4840, Cybersecurity Fundamentals (LAB), 0, "Grujic, Olivera", Arr, Arr
+CS4910 - 001, CS4910, Cooperative Education, 1-3, "Tenure Track, Faculty", Arr, Arr
+CS4960 - 001, CS4960, Seminar in Computer Science, 1, "Koh, Kyu Han", R, 3:30P - 4:20P
+CS4960 - 002, CS4960, Seminar in Computer Science, 1, "Kim, Dae Hee", W, 5:00P - 5:50P
+CS4960 - 003, CS4960, Seminar in Computer Science, 1, "Liang, Xuejun", T, 3:30P - 4:20P
+CS4980 - 001, CS4980, Individual Study, 1-4, "Tenure Track, Faculty", Arr, Arr
 
-PHIL4401 - 001, PHIL4401, Professional Ethics, 3, Albright, Ian, Arr, Arr
-PHIL4401 - 002, PHIL4401, Professional Ethics, 3, Alvarez, Rocio, Arr, Arr
-PHIL4401 - 003, PHIL4401, Professional Ethics, 3, Albright, Ian, MWF, 12:00P - 12:50P
-PHIL4401 - 004, PHIL4401, Professional Ethics, 3, Alvarez, Rocio, MW, 12:00P - 12:50P
-PHIL4401 - 005, PHIL4401, Professional Ethics, 3, Brown, Mark, Arr, Arr
-PHIL4401 - 006, PHIL4401, Professional Ethics, 3, Nagel, Chris, Arr, Arr
-PHIL4401 - 007, PHIL4401, Professional Ethics, 3, Brown, Mark, Arr, Arr
+PHIL4401 - 001, PHIL4401, Professional Ethics, 3, "Albright, Ian", Arr, Arr
+PHIL4401 - 002, PHIL4401, Professional Ethics, 3, "Alvarez, Rocio", Arr, Arr
+PHIL4401 - 003, PHIL4401, Professional Ethics, 3, "Albright, Ian", MWF, 12:00P - 12:50P
+PHIL4401 - 004, PHIL4401, Professional Ethics, 3, "Alvarez, Rocio", MW, 12:00P - 12:50P
+PHIL4401 - 005, PHIL4401, Professional Ethics, 3, "Brown, Mark", Arr, Arr
+PHIL4401 - 006, PHIL4401, Professional Ethics, 3, "Nagel, Chris", Arr, Arr
+PHIL4401 - 007, PHIL4401, Professional Ethics, 3, "Brown, Mark", Arr, Arr
 
-MATH1410 - 001, MATH1410, Calculus I, 4, Martin, David, MWF, 11:00A - 11:50A
-MATH1410 - 002, MATH1410, Calculus I, 4, Wu, Yanhong, MWF, 2:00P - 2:50P
-MATH1412 - 001, MATH1412, Calculus I (LAB), 1, Bortner, Cashous, M, 3:00P - 4:50P
-MATH1420 - 001, MATH1420, Calculus II, 4, Jue, Brian, T, MWF, 8:30A - 9:20A
-MATH1422 - 001, MATH1422, Calculus II (LAB), 1, Bortner, Cashous, W, 3:00P - 4:50P
-MATH 1620 - 001, MATH1620, Probability and Statistics, 4, N/A, N/A, N/A
-MATH1600 - 001, MATH1600, Statistics, 4, Wu, Yanhong, MWF, 12:00P - 12:50P
-MATH1600 - 002, MATH1600, Statistics (LAB), 4, Wu, Yanhong, T, 12:00P - 1:50P
-MATH1600 - 005, MATH1600, Statistics, 4, Bautista, Elda, MWF, 10:00A - 10:50A
-MATH1600 - 006, MATH1600, Statistics (LAB), 4, Bautista, Elda, MW, 11:00A - 11:50A
-MATH1600 - 007, MATH1600, Statistics, 4, Estrada, Emmanuel, MWF, 1:00P - 1:50P
-MATH1600 - 008, MATH1600, Statistics (LAB), 4, Estrada, Emmanuel, MW, 2:00P - 2:50P
-MATH1600 - 009, MATH1600, Statistics, 4, Sarhad, Jonathan, MWF, 3:00P - 3:50P
-MATH1600 - 010, MATH1600, Statistics (LAB), 4, Sarhad, Jonathan, MW, 4:00P - 4:50P
-MATH1600 - 011, MATH1600, Statistics, 4, Malekzadeh, Behrouz, TR, 5:00P - 6:15P
-MATH1600 - 012, MATH1600, Statistics (LAB), 4, Malekzadeh, Behrouz, TR, 6:20P - 7:10P
-MATH1600 - 013, MATH1600, Statistics, 4, Sekhon, Manpreet, TR, 9:30A - 10:45A
-MATH1600 - 014, MATH1600, Statistics (LAB), 4, Sekhon, Manpreet, TR, 10:50A - 11:40A
-MATH1600 - 015, MATH1600, Statistics, 4, Estrada, Emmanuel, MW, 5:00P - 6:15P
-MATH1600 - 016, MATH1600, Statistics (LAB), 4, Estrada, Emmanuel, MW, 6:20P - 7:10P
-MATH1602 - 001, MATH1602, Statistics with Support II, 3, Zeng, Zhi, MW, 10:00A - 10:50A
-MATH1602 - 002, MATH1602, Statistics with Support II (LAB), 3, Zeng, Zhi, MW, 11:00A - 11:50A
-MATH1602 - 003, MATH1602, Statistics with Support II, 3, Aghassi, Valeh, TR, 4:00P - 4:50P
-MATH1602 - 004, MATH1602, Statistics with Support II (LAB), 3, Aghassi, Valeh, TR, 5:00P - 5:50P
-MATH2300 - 001, MATH2300, Discrete Structures, 3, Sarhad, Jonathan, MWF, 11:00A - 11:50A
+MATH1410 - 001, MATH1410, Calculus I, 4, "Martin, David", MWF, 11:00A - 11:50A
+MATH1410 - 002, MATH1410, Calculus I, 4, "Wu, Yanhong", MWF, 2:00P - 2:50P
+MATH1412 - 001, MATH1412, Calculus I (LAB), 1, "Bortner, Cashous", M, 3:00P - 4:50P
+MATH1420 - 001, MATH1420, Calculus II, 4, "Jue, Brian", T, MWF, 8:30A - 9:20A
+MATH1422 - 001, MATH1422, Calculus II (LAB), 1, "Bortner, Cashous", W, 3:00P - 4:50P
+MATH 1620 - 001, MATH1620, Probability and Statistics, 4, "N/A, N/A", N/A
+MATH1600 - 001, MATH1600, Statistics, 4, "Wu, Yanhong", MWF, 12:00P - 12:50P
+MATH1600 - 002, MATH1600, Statistics (LAB), 4, "Wu, Yanhong", T, 12:00P - 1:50P
+MATH1600 - 005, MATH1600, Statistics, 4, "Bautista, Elda", MWF, 10:00A - 10:50A
+MATH1600 - 006, MATH1600, Statistics (LAB), 4, "Bautista, Elda", MW, 11:00A - 11:50A
+MATH1600 - 007, MATH1600, Statistics, 4, "Estrada, Emmanuel", MWF, 1:00P - 1:50P
+MATH1600 - 008, MATH1600, Statistics (LAB), 4, "Estrada, Emmanuel", MW, 2:00P - 2:50P
+MATH1600 - 009, MATH1600, Statistics, 4, "Sarhad, Jonathan", MWF, 3:00P - 3:50P
+MATH1600 - 010, MATH1600, Statistics (LAB), 4, "Sarhad, Jonathan", MW, 4:00P - 4:50P
+MATH1600 - 011, MATH1600, Statistics, 4, "Malekzadeh, Behrouz", TR, 5:00P - 6:15P
+MATH1600 - 012, MATH1600, Statistics (LAB), 4, "Malekzadeh, Behrouz", TR, 6:20P - 7:10P
+MATH1600 - 013, MATH1600, Statistics, 4, "Sekhon, Manpreet", TR, 9:30A - 10:45A
+MATH1600 - 014, MATH1600, Statistics (LAB), 4, "Sekhon, Manpreet", TR, 10:50A - 11:40A
+MATH1600 - 015, MATH1600, Statistics, 4, "Estrada, Emmanuel", MW, 5:00P - 6:15P
+MATH1600 - 016, MATH1600, Statistics (LAB), 4, "Estrada, Emmanuel", MW, 6:20P - 7:10P
+MATH1602 - 001, MATH1602, Statistics with Support II, 3, "Zeng, Zhi", MW, 10:00A - 10:50A
+MATH1602 - 002, MATH1602, Statistics with Support II (LAB), 3, "Zeng, Zhi", MW, 11:00A - 11:50A
+MATH1602 - 003, MATH1602, Statistics with Support II, 3, "Aghassi, Valeh", TR, 4:00P - 4:50P
+MATH1602 - 004, MATH1602, Statistics with Support II (LAB), 3, "Aghassi, Valeh", TR, 5:00P - 5:50P
+MATH2300 - 001, MATH2300, Discrete Structures, 3, "Sarhad, Jonathan", MWF, 11:00A - 11:50A
 
-PHYS2250 - 001, PHYS2250, General Physics I, 4, Veatch, Jason, MWF, 11:00A - 11:50A
-PHYS2250 - 002, PHYS2250, General Physics I (DIS), 0, Veatch, Jason, T, 11:00A - 11:50A
-PHYS2252 - 001, PHYS2252, General Physics I (LAB), 1, Part-Time Faculty, M, 2:00P - 4:50P
-PHYS2252 - 002, PHYS2252, General Physics I (LAB), 1, Muoio, Ryan, T, 2:00P - 4:50P
-PHYS2260 - 001, PHYS2260, General Physics II, 4, N/A, N/A, N/A
-PHYS2262 - 001, PHYS2262, General Physics II (LAB), 1, N/A, N/A, N/A
-PHYS4250 - 001, PHYS4250, Analog and Digital Electronics, 4, To, Wing, TR, 2:00P - 3:15P
-PHYS4250 - 002, PHYS4250, Analog and Digital Electronics (LAB), 0, To, Wing, W, 2:00P - 4:50P
+PHYS2250 - 001, PHYS2250, General Physics I, 4, "Veatch, Jason", MWF, 11:00A - 11:50A
+PHYS2250 - 002, PHYS2250, General Physics I (DIS), 0, "Veatch, Jason", T, 11:00A - 11:50A
+PHYS2252 - 001, PHYS2252, General Physics I (LAB), 1, "Part-Time Faculty", M, 2:00P - 4:50P
+PHYS2252 - 002, PHYS2252, General Physics I (LAB), 1, "Muoio, Ryan", T, 2:00P - 4:50P
+PHYS2260 - 001, PHYS2260, General Physics II, 4, "N/A, N/A", N/A, N/A
+PHYS2262 - 001, PHYS2262, General Physics II (LAB), 1, "N/A, N/A", N/A, N/A
+PHYS4250 - 001, PHYS4250, Analog and Digital Electronics, 4, "To, Wing", TR, 2:00P - 3:15P
+PHYS4250 - 002, PHYS4250, Analog and Digital Electronics (LAB), 0, "To, Wing", W, 2:00P - 4:50P
 
-CHEM1100 - 001, CHEM1100, General Chemistry I, 4, Stone, Koni, MWF, 10:00A - 10:50A
-CHEM1100 - 002, CHEM1100, General Chemistry I (DIS), 0, Issavi, Halin, M, 1:00P - 1:50P
-CHEM1100 - 003, CHEM1100, General Chemistry I (DIS), 0, Issavi, Halin, T, 12:00P - 12:50P
-CHEM1100 - 004, CHEM1100, General Chemistry I (DIS), 0, Issavi, Halin, T, 1:00P - 1:50P
-CHEM1100 - 005, CHEM1100, General Chemistry I, 4, Stessman, Y Nhu, MWF, 11:00A - 11:50A
-CHEM1100 - 006, CHEM1100, General Chemistry I (DIS), 0, Brackett, Claudia, R, 12:00P - 12:50P
-CHEM1100 - 007, CHEM1100, General Chemistry I (DIS), 0, Brackett, Claudia, R, 1:00P - 1:50P
-CHEM1100 - 008, CHEM1100, General Chemistry I (DIS), 0, Brackett, Claudia, R, 2:00P - 2:50P
-CHEM1102 - 002, CHEM1102, General Chemistry I (LAB), 1, Brackett, Claudia, T, 8:00A - 10:50A
-CHEM1102 - 003, CHEM1102, General Chemistry I (LAB), 1, Russell, Scott, T, 2:00P - 4:50P
-CHEM1102 - 004, CHEM1102, General Chemistry I (LAB), 1, Brackett, Claudia, T, 11:00A - 1:50P
-CHEM1102 - 005, CHEM1102, General Chemistry I (LAB), 1, Brackett, Claudia, R, 8:00A - 10:50A
-CHEM1102 - 006, CHEM1102, General Chemistry I (LAB), 1, Dunlap, Karen, W, 2:00P - 4:50P
-CHEM1102 - 007, CHEM1102, General Chemistry I (LAB), 1, Russell, Scott, R, 2:00P - 4:50P
-CHEM1110 - 001, CHEM1110, General Chemistry II, 4, Phillips, Shane, MWF, 1:00P - 1:50P
-CHEM1110 - 002, CHEM1110, General Chemistry II (DIS), 0, Russell, Scott, W, 11:00A - 11:50A
-CHEM1110 - 003, CHEM1110, General Chemistry II (DIS), 0, Russell, Scott, T, 11:00A - 11:50A
-CHEM1110 - 004, CHEM1110, General Chemistry II (DIS), 0, Russell, Scott, R, 11:00A - 11:50A
-CHEM1110 - 005, CHEM1110, General Chemistry II (DIS), 0, Russell, Scott, M, 11:00A - 11:50A
-CHEM1112 - 001, CHEM1112, General Chemistry II (LAB), 1, Schara, Gonul, M, 2:00P - 4:50P
-CHEM1112 - 002, CHEM1112, General Chemistry II (LAB), 1, Dunlap, Karen, T, 2:00P - 4:50P
-CHEM1112 - 003, CHEM1112, General Chemistry II (LAB), 1, Schara, Gonul, R, 8:00A - 10:50A
-CHEM1112 - 004, CHEM1112, General Chemistry II (LAB), 1, Dunlap, Karen, R, 2:00P - 4:50P
+CHEM1100 - 001, CHEM1100, General Chemistry I, 4, "Stone, Koni", MWF, 10:00A - 10:50A
+CHEM1100 - 002, CHEM1100, General Chemistry I (DIS), 0, "Issavi, Halin", M, 1:00P - 1:50P
+CHEM1100 - 003, CHEM1100, General Chemistry I (DIS), 0, "Issavi, Halin", T, 12:00P - 12:50P
+CHEM1100 - 004, CHEM1100, General Chemistry I (DIS), 0, "Issavi, Halin", T, 1:00P - 1:50P
+CHEM1100 - 005, CHEM1100, General Chemistry I, 4, "Stessman, Y Nhu", MWF, 11:00A - 11:50A
+CHEM1100 - 006, CHEM1100, General Chemistry I (DIS), 0, "Brackett, Claudia", R, 12:00P - 12:50P
+CHEM1100 - 007, CHEM1100, General Chemistry I (DIS), 0, "Brackett, Claudia", R, 1:00P - 1:50P
+CHEM1100 - 008, CHEM1100, General Chemistry I (DIS), 0, "Brackett, Claudia", R, 2:00P - 2:50P
+CHEM1102 - 002, CHEM1102, General Chemistry I (LAB), 1, "Brackett, Claudia", T, 8:00A - 10:50A
+CHEM1102 - 003, CHEM1102, General Chemistry I (LAB), 1, "Russell, Scott", T, 2:00P - 4:50P
+CHEM1102 - 004, CHEM1102, General Chemistry I (LAB), 1, "Brackett, Claudia", T, 11:00A - 1:50P
+CHEM1102 - 005, CHEM1102, General Chemistry I (LAB), 1, "Brackett, Claudia", R, 8:00A - 10:50A
+CHEM1102 - 006, CHEM1102, General Chemistry I (LAB), 1, "Dunlap, Karen", W, 2:00P - 4:50P
+CHEM1102 - 007, CHEM1102, General Chemistry I (LAB), 1, "Russell, Scott", R, 2:00P - 4:50P
+CHEM1110 - 001, CHEM1110, General Chemistry II, 4, "Phillips, Shane", MWF, 1:00P - 1:50P
+CHEM1110 - 002, CHEM1110, General Chemistry II (DIS), 0, "Russell, Scott", W, 11:00A - 11:50A
+CHEM1110 - 003, CHEM1110, General Chemistry II (DIS), 0, "Russell, Scott", T, 11:00A - 11:50A
+CHEM1110 - 004, CHEM1110, General Chemistry II (DIS), 0, "Russell, Scott", R, 11:00A - 11:50A
+CHEM1110 - 005, CHEM1110, General Chemistry II (DIS), 0, "Russell, Scott", M, 11:00A - 11:50A
+CHEM1112 - 001, CHEM1112, General Chemistry II (LAB), 1, "Schara, Gonul", M, 2:00P - 4:50P
+CHEM1112 - 002, CHEM1112, General Chemistry II (LAB), 1, "Dunlap, Karen", T, 2:00P - 4:50P
+CHEM1112 - 003, CHEM1112, General Chemistry II (LAB), 1, "Schara, Gonul", R, 8:00A - 10:50A
+CHEM1112 - 004, CHEM1112, General Chemistry II (LAB), 1, "Dunlap, Karen", R, 2:00P - 4:50P
 
-BIOL1050 - 001, BIOL1050, General Biology I, 4, Gerson, Marina, MWF, 9:00A - 9:50A
-BIOL1050 - 002, BIOL1050, General Biology I (LAB), 0, Guernsey, Michael, W, 1:00P - 3:50P
-BIOL1050 - 003, BIOL1050, General Biology I (LAB), 0, Part-Time Faculty, F, 11:00A - 1:50P
-BIOL1050 - 004, BIOL1050, General Biology I (LAB), 0, Part-Time Faculty, T, 9:00A - 11:50A
-BIOL1050 - 005, BIOL1050, General Biology I, 4, Bissonnette, Sarah, TR, 9:30A - 10:45A
-BIOL1050 - 006, BIOL1050, General Biology I (LAB), 0, Part-Time Faculty, T, 12:00P - 2:50P
-BIOL1050 - 007, BIOL1050, General Biology I (LAB), 0, Bissonnette, Sarah, R, 12:00P - 2:50P
-BIOL1050 - 008, BIOL1050, General Biology I (LAB), 0, Channing, Sally, T, 6:00P - 8:50P
-BIOL1050 - 009, BIOL1050, General Biology I (LAB), 0, Dulai, Kanwaljit, R, 8:00A - 10:50A
-BIOL1050 - 010, BIOL1050, General Biology I (LAB), 0, Newton, Jamila, F, 8:00A - 10:50A
-BIOL1150 - 001, BIOL1150, General Biology II, 4, Bhaduri, Ritindra, TR, 12:30P - 1:45P
-BIOL1150 - 002, BIOL1150, General Biology II (LAB), 0, Pirlo, Jeanette, T, 9:30A - 12:20P
-BIOL1150 - 003, BIOL1150, General Biology II (LAB), 0, Bhaduri, Ritindra, T, 5:00P - 7:50P
-BIOL1150 - 004, BIOL1150, General Biology II (LAB), 0, Emerson, Sara, W, 2:00P - 4:50P
-BIOL2310 - 001, BIOL2310, Human Genetics, 3, Dulai, Kanwaljit, TR, 2:00P - 3:15P
+BIOL1050 - 001, BIOL1050, General Biology I, 4, "Gerson, Marina", MWF, 9:00A - 9:50A
+BIOL1050 - 002, BIOL1050, General Biology I (LAB), 0, "Guernsey, Michael", W, 1:00P - 3:50P
+BIOL1050 - 003, BIOL1050, General Biology I (LAB), 0, "Part-Time Faculty", F, 11:00A - 1:50P
+BIOL1050 - 004, BIOL1050, General Biology I (LAB), 0, "Part-Time Faculty", T, 9:00A - 11:50A
+BIOL1050 - 005, BIOL1050, General Biology I, 4, "Bissonnette, Sarah", TR, 9:30A - 10:45A
+BIOL1050 - 006, BIOL1050, General Biology I (LAB), 0, "Part-Time Faculty", T, 12:00P - 2:50P
+BIOL1050 - 007, BIOL1050, General Biology I (LAB), 0, "Bissonnette, Sarah", R, 12:00P - 2:50P
+BIOL1050 - 008, BIOL1050, General Biology I (LAB), 0, "Channing, Sally", T, 6:00P - 8:50P
+BIOL1050 - 009, BIOL1050, General Biology I (LAB), 0, "Dulai, Kanwaljit", R, 8:00A - 10:50A
+BIOL1050 - 010, BIOL1050, General Biology I (LAB), 0, "Newton, Jamila", F, 8:00A - 10:50A
+BIOL1150 - 001, BIOL1150, General Biology II, 4, "Bhaduri, Ritindra", TR, 12:30P - 1:45P
+BIOL1150 - 002, BIOL1150, General Biology II (LAB), 0, "Pirlo, Jeanette", T, 9:30A - 12:20P
+BIOL1150 - 003, BIOL1150, General Biology II (LAB), 0, "Bhaduri, Ritindra", T, 5:00P - 7:50P
+BIOL1150 - 004, BIOL1150, General Biology II (LAB), 0, "Emerson, Sara", W, 2:00P - 4:50P
+BIOL2310 - 001, BIOL2310, Human Genetics, 3, "Dulai, Kanwaljit", TR, 2:00P - 3:15P
 
-CIS4770 - 001, CIS4770, Systems Analysis and Design, 3, Panagopoulos, Orestis Panos, W, 1:00P - 2:50P
-CIS4770 - 002, CIS4770, Systems Analysis and Design (LAB), 0, Panagopoulos, Orestis Panos, W, 3:00P - 4:50P
+CIS4770 - 001, CIS4770, Systems Analysis and Design, 3, "Panagopoulos, Orestis Panos", W, 1:00P - 2:50P
+CIS4770 - 002, CIS4770, Systems Analysis and Design (LAB), 0, "Panagopoulos, Orestis Panos", W, 3:00P - 4:50P
 
 
 
