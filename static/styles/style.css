@@ -1,0 +1,162 @@
+/* 
+FOR THE DROP DOWN
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* 
+BODY 
+*/
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    transition: background-image 1s ease-in-out;
+    background-color:#070035
+}
+
+/* 
+NAVBAR / CONTACT-INFO
+*/
+.church-logo,
+.item-list,
+.navbar,
+.watch-now,
+.church-info,
+.church-name,
+.church-location,
+.church-time,
+.church-new,
+.church-old {
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    color: #eeff00;
+    background-color: rgba(120, 120, 120,.9);
+
+}
+
+.phone, 
+.location,
+.email, 
+.youtube, 
+.facebook{
+    margin-left:10px;
+}
+
+/* 
+THINGS I WOULD LIKE TO SEE ON OTHER PAGES 
+SO WE LOOK UNIFORM
+*/
+.page1 {
+    background-image: url('../img/church-picture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%; /* Set width to cover the full viewport */
+}
+
+.notes{
+    color:yellow;
+    text-align:center;
+}
+
+.heading1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.heading2 {
+    color: #555;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #777;
+    font-size: 18px;
+    line-height: 1.5;
+}
+/* 
+Picture at top of all html files in index folder and jobs
+*/
+.picture {
+    text-align: center;
+    margin-top: 20px;
+    background-image: url('../img/church-sunday.jpg');
+    background-size: cover; /* Adjust the background size as needed */
+    height: 300px; /* Adjust the height as needed */
+}
+
+/* Style for the heading class */
+.heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
