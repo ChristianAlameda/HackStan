@@ -1,38 +1,38 @@
 Course Title, Course Code, Prerequisites, Required/Practice/Theory/Elective
-Professional Ethics, PHIL 4401, , Required
+Professional Ethics, PHIL 4401, "None", Required
 Computer Programming I, CS 1500, "Two years of high school algebra", Required
 Computer Programming II, CS 2500, CS 1500, Required
 Assembly Language and Computer Architecture, CS 2700, CS 2500, Required
-Calculus I, MATH 1410, "MATH 1070 and MATH 1080, or MATH 1072 and MATH 1080, or MATH 1100, each with a grade of C- or better; or Mathematics Placement category I/II and a passing score on the Calculus Placement Test", Required
-Calculus II, MATH 1420, MATH 1410 with a grade of C- or better, Required
-Probability and Statistics, MATH 1620, MATH 1410 with a grade of C- or better, Theory
+Calculus I, MATH 1410, "MATH 1070 and MATH 1080, or MATH 1072 and MATH 1080, or MATH 1100, or Mathematics Placement category I/II and a passing score on the Calculus Placement Test", Required
+Calculus II, MATH 1420, MATH 1410, Required
+Probability and Statistics, MATH 1620, MATH 1410, Theory
 Statistics, MATH 1600, "Mathematics Placement category I or II", Theory
-Statistics with Support II, MATH 1602, MATH 1601 with a grade of C- or better, Theory
-Discrete Structures, MATH 2300, "MATH 1100 or both MATH 1070 and MATH 1080 with a grade of C- or better", Required
-General Physics I, PHYS 2250, MATH 1410 or consent of instructor, Practice
+Statistics with Support II, MATH 1602, MATH 1601, Theory
+Discrete Structures, MATH 2300, "MATH 1100 or both MATH 1070 and MATH 1080", Required
+General Physics I, PHYS 2250, MATH 1410, Practice
 General Physics I Laboratory, PHYS 2252, PHYS 2250 or concurrent enrollment in PHYS 2250, Practice
 General Physics II, PHYS 2260, "PHYS 2250 and MATH 1420 or concurrent enrollment in MATH 1420", Practice
 General Physics II Laboratory, PHYS 2262, PHYS 2260 or concurrent enrollment in PHYS 2260, Practice
-General Chemistry I, CHEM 1100, "MATH 1070, or MATH 1072, or equivalent to be eligible to enroll in MATH 1100 Precalculus", Practice
-General Chemistry I Laboratory, CHEM 1102, "MATH 1070, or MATH 1072, or equivalent to be eligible to enroll in MATH 1100 Precalculus", Practice
-General Chemistry II, CHEM 1110, CHEM 1100 and 1102 with grades of C- or higher, Practice
-General Chemistry II Laboratory, CHEM 1112, "CHEM 1100 and 1102 with minimum grades of C- or higher. Corequisite: CHEM 1110 unless already completed with a grade of C- or higher.", Practice
-General Biology I, BIOL 1050, "Grade of A or B in high school biology, satisfactory score on biology qualifying examination, or BIOL 1010", Practice
-General Biology II, BIOL 1150, BIOL 1050 with C- or better, Practice
+General Chemistry I, CHEM 1100, "MATH 1070, or MATH 1072, or MATH 1100", Practice
+General Chemistry I Laboratory, CHEM 1102, "MATH 1070, or MATH 1072, or MATH 1100", Practice
+General Chemistry II, CHEM 1110, CHEM 1100 and 1102, Practice
+General Chemistry II Laboratory, CHEM 1112, "CHEM 1100 and 1102", Practice
+General Biology I, BIOL 1050, "high school biology, satisfactory score on biology qualifying examination, or BIOL 1010", Practice
+General Biology II, BIOL 1150, BIOL 1050, Practice
 Data Structures and Algorithms, CS 3100, CS 2500, Required
 Computer Organization, CS 3740, CS 2700, Required
 Operating Systems I, CS 3750, "CS 3100 and CS 3740", Required
 Programming Languages (WP), CS 4100, CS 3100, Required
-Seminar in Computer Science, CS 4960, "Senior standing and consent of instructor and either passage of (strongly recommended) CS 4100, or co-enrollment in CS 4100", Required
+Seminar in Computer Science, CS 4960, "Senior or co-enrollment in CS 4100", Required
 Compiler Theory, CS 4300, CS 4100, Theory, Elective
 Automata, Computability, and Formal Languages, CS 4410, "CS 3100 and MATH 2300", Theory, Elective
 Theory of Algorithms, CS 4440, "CS 3100 and MATH 2300", Theory, Elective
 Coding and Information Theory, CS 4450, "CS 3100 and MATH 2300", Theory, Elective
 Database Management Systems, CS 4250, CS 3100, Practice, Elective
-Ecommerce Systems Design, CS 4270, "CS 3100 and basic Java", Practice, Elective
+Ecommerce Systems Design, CS 4270, "CS 3100", Practice, Elective
 Software Engineering, CS 4800, CS 3100, Practice, Elective
 Communication Networks, CS 3000, CS 2500, Elective
-Nonlinear Systems and Chaos, CS 3150, "CS 1500 or COGS 2300 or consent of instructor", Elective
+Nonlinear Systems and Chaos, CS 3150, "CS 1500 or COGS 2300", Elective
 Computer Simulation Techniques, CS 3200, "MATH 1600 or 1602 or 1610 or 1620, and CS 1500 or CIS 2010", Elective
 Neural Networks and Intelligent Machines, CS 3400, "CS 2500 or COGS 2300 or consent of instructor", Elective
 Human-Centered Design, CS 3500, "None", Elective
