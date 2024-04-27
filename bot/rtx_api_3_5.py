@@ -5,7 +5,6 @@ import psutil
 import json
 
 port = None
-url = None
 
 def find_chat_with_rtx_port():
     global port
@@ -69,7 +68,6 @@ def send_message(message):
 
 def connect(test_url, test_port):
     global port
-    global url
     url = f"http://"+test_url+":{test_port}/queue/join"
     response = requests.post(url, data="", timeout=0.05)
     if response.status_code == 422:
