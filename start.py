@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 #pip install flask 
 #pip install requests
 from flask import Flask, render_template, request, url_for, redirect, session, jsonify
-from database import Database
 import json
 import re
 from bson import ObjectId
@@ -29,10 +27,7 @@ class MyFlaskApp:
         
         
         
-        # DB CLASS INITIALIZATION
-        self.database = Database()
-        self.database.connect()
-        self.database.checkIfEmpty()
+        
         
         webbrowser.open("http://127.0.0.1:5000")
         
@@ -72,23 +67,36 @@ class MyFlaskApp:
         # so we will be receiving a pdf and we will have to parse 
         # to get all the classes they have taken and we will give that in a dictionary of itself
         
-        name = request.form['name']
-        year = request.form['year']
-        hours_can_work = request.form['hoursCanWork']
-        teacher_liked = request.form.get('teacherLiked', '')  # Assuming teacherLiked is an optional field
-        teacher_hate = request.form.get('teacherHate', '')    # Assuming teacherHate is an optional field
+        if request.method == 'POST':
+            # Extract form data
+            name = request.form.get('name', '')
+            year = request.form.get('year', '')
+            hours_can_work = request.form.get('hoursCanWork', '')
+            uploaded_file = request.files.get('file')
 
-        # Process the uploaded file if any
-        uploaded_file = request.files['file']
-        if uploaded_file:
-            # Do something with the file
-            pass
-        
-        #send all this shit to anthony
-        
-        
+            # Process the uploaded file if any
+            if uploaded_file:
+                # Do something with the file
+                pass
+            
+            # Additional form fields processing
+            teacher_liked = request.form.get('teacherLiked', '')
+            teacher_hate = request.form.get('teacherHate', '')
 
-        return redirect(url_for('index'))
+            # Store form data in a dictionary
+            data = {
+                "name": name,
+                "year": year,
+                "hours_can_work": hours_can_work,
+                "teacher_liked": teacher_liked,
+                "teacher_hate": teacher_hate
+            }
+
+            # Render a template with the data
+            return render_template('genieBot.html', dictionary=data)
+
+        # If GET request, render the form
+        return render_template('genieBot.html')
 
     #################################
     #################################
@@ -112,22 +120,6 @@ class MyFlaskApp:
         # data = self.remove_double_quotes(data)
         return data
     
-    def catch_duplicate(self, item:dict):
-        # see if a user has added a bird that 
-        # he has already added
-        #gives me a string
-        print("item['item']",'  ',type(item['item']), '  ', item['item'])
-        
-        self.user_database.connect(self.curr_email)
-        #remove the newest duplicate
-        posts = self.user_database.getPost({'item':item})   # COLE - Changed original getPosts() method call to getPost() since only single query result is selected for adding to catalogue
-        print(posts)
-        # cursor_list = list(posts)
-        # print(cursor_list)
-        if posts:
-            self.user_database.deletePost(posts)
-            return False
-        else: return item
     
     def check_empty(self, results):
         results_list = list(results)
@@ -136,10 +128,8 @@ class MyFlaskApp:
 if __name__ == "__main__":
     x = MyFlaskApp()
     x.app.run(host="0.0.0.0", port=5000)
-=======
 def main():
     pass
 
 if __name__ == "__main__":
     main()
->>>>>>> 8f9e974439dc2250bcb3513c542684789e524565
