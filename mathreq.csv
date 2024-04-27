@@ -1,41 +1,27 @@
-Course Number,Units
-CS 1500,3
-MATH 1410,4
-MATH 1420,4
-MATH 1620,4
-MATH 2410,4
-MATH 2460,2
-MATH 2530,3
-MATH 3230,3
-MATH 3400,3
-MATH 4130,3
-MATH 4330,3
-MATH 4430,3
-MATH 4530,3
-MATH 4600,3
-MATH 4630,3
-MATH 3060,3
-MATH 3110,3
-MATH 3600,3
-MATH 4020,3
-MATH 4140,3
-MATH 4540,3
-MATH 4960,3
-
-Course Code, Units
-MATH 1410, 4
-MATH 1420, 4
-MATH 1620, 3-4
-MATH 3230, 3
-MATH 3400, 3
-MATH 4130, 3
-MATH 4330, 3
-MATH 4430, 3
-MATH 4530, 3
-MATH 4600, 3
-MATH 4630, 3
-MATH 4960, 3
-MATH 3230, 3
-MATH 4330, 3
-MATH 4430, 3
-MATH 4600, 3
+Course Code,Course Title,Units,Prerequisites,Required/Elective
+MATH 1410,Calculus I,4,"MATH 1070 and MATH 1080, or MATH 1072 and MATH 1080, or MATH 1100",Required
+MATH 1420,Calculus II,4,"MATH 1410",Required
+MATH 1620,Probability and Statistics,4,"MATH 1410",Required
+MATH 2410,Multivariate Calculus,4,"MATH 1420",Required
+MATH 2460,Introduction to Differential Equations,2,"MATH 2410",Required
+MATH 2530,Linear Algebra,3,"MATH 1420",Required
+CS 1500,Computer Programming I,3,"Two years of high school algebra",Required
+MATH 1412,Calculus I Laboratory,1,"",Required
+MATH 1422,Calculus II Laboratory,1,"",Required
+MATH 3400,Set Theory and Logic,3,"MATH 1420",Required
+MATH 3600,Theory of Numbers,3,"MATH 1420",Required
+MATH 4130,Real Analysis I,3,"MATH 2410, MATH 2530, MATH 3400, and six additional upper-division units in mathematics", Required
+MATH 4140,Real Analysis II,3,"MATH 4130",Elective
+MATH 4530,Abstract Algebra,3,"MATH 2410, MATH 2530, MATH 3400, and six additional upper-division units in mathematics and/or computer science", Required
+MATH 4540,Abstract Algebra II,3,"MATH 4530",Elective
+MATH 4600,Complex Variables,3,"MATH 2410",Required
+MATH 3230,Differential Equations,3,"MATH 2460, MATH 2530",Required
+MATH 4330,Numerical Analysis,3,"MATH 2410, MATH 2460, MATH 2530, and CS 1500",Required
+MATH 4430,Operations Research,3,"MATH 2530",Required
+MATH 4630,Probability Theory,3,"MATH 1620 and MATH 2410",Required
+MATH 4960,Senior Seminar in Mathematics (WP),3,"MATH 1620, MATH 2410, MATH 2530",Elective
+CS 2500,Computer Programming II,3,"CS 1500","Elective"
+ECON 2500,Principles of Macroeconomics,3,"","Elective"
+ECON 2510,Principles of Microeconomics,3,"ECON 2500 recommended","Elective"
+PHYS 2250,General Physics I,4,"MATH 1410","Elective"
+PHYS 2260,General Physics II,4,"PHYS 2250 and MATH 1420 or concurrent enrollment in MATH 1420","Elective"
