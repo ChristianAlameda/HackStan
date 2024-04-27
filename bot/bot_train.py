@@ -8,6 +8,8 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
+print("Devices Available: ", len(tf.config.list_physical_devices()), '\n', tf.config.list_physical_devices())
+
 # Download NLTK data
 nltk.download('punkt')
 nltk.download('wordnet')
@@ -42,9 +44,7 @@ def loadDataset(filename):
 
 processed_data = loadDataset('bot/dictionary.csv')
 
-print("Devices Available: ", len(tf.config.list_physical_devices()), '\n', tf.config.list_physical_devices())
-
-modelName = 'bot/chatbotModel.keras' # location and name
+modelName = './bot/chatbotModel.keras' # location and name
 
 vocab_size = 5000
 embedding_dim = 64
@@ -54,6 +54,7 @@ padding_type='post'
 oov_tok = "<OOV>"
 training_size = len(processed_data)
 tokenizer = Tokenizer(num_words=vocab_size, oov_token=oov_tok)
+num_epochs = 1
 
 def saveModel(model):
         """Saves the model to a file using the name provided in self.__modelFilename
@@ -72,26 +73,25 @@ def buildModel():
         # Load and Train
         model = tf.keras.models.load_model(modelName)
         #model.summary()
-        
+        print('Loaded model from '+modelName+'.')
         # Train model
-        num_epochs = 50
         history = model.fit(training_data, training_labels, epochs=num_epochs, verbose=2)
         saveModel(model)
         return model
     except:
         # Build and training
-
+        print('Building a new model.')
         # Set parameters
-        vocab_size = 5000
-        embedding_dim = 64
-        max_length = 100
-        trunc_type='post'
-        padding_type='post'
-        oov_tok = "<OOV>"
-        training_size = len(processed_data)
+        # vocab_size = 5000
+        # embedding_dim = 64
+        # max_length = 100
+        # trunc_type='post'
+        # padding_type='post'
+        # oov_tok = "<OOV>"
+        # training_size = len(processed_data)
 
         # Create tokenizer
-        tokenizer = Tokenizer(num_words=vocab_size, oov_token=oov_tok)
+        # tokenizer = Tokenizer(num_words=vocab_size, oov_token=oov_tok)
         tokenizer.fit_on_texts(processed_data)
         word_index = tokenizer.word_index
 
@@ -118,7 +118,6 @@ def buildModel():
         model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
         # Train model
-        num_epochs = 50
         history = model.fit(training_data, training_labels, epochs=num_epochs, verbose=2)
         saveModel(model)
         return model

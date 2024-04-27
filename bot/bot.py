@@ -1,4 +1,6 @@
 import tensorflow as tf
+import rtx_api_3_5 as rtx_api
+import rtx_api_2_11 as rtx_api
 
 class Bot():
     def __init__(self):
