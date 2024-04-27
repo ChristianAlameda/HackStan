@@ -1,10 +1,8 @@
 import tensorflow as tf
-from chatterbot import ChatBot
-from chatterbot.trainers import ListTrainer
 
 class Bot():
     def __init__(self):
-        self.__chatbot = ChatBot("Titus")
+        self.__chatbot = None
 
     def __del__(self):
         del self.__chatbot
@@ -20,7 +18,7 @@ class Bot():
             "You're welcome."
         ]
 
-        trainer = ListTrainer(self.__chatbot)
+        trainer = None
 
         trainer.train(conversation)
         print('Training completed.')
