@@ -1,5 +1,5 @@
 #Scheduling List for Fall 2024
-CourseCode+Sec#, Course Code, Course Title, Units, Instructor, Days, Time, Room
+CourseCode+Sec#, Course Code, Course Title, Units, Instructor, Days, Time
 CS1500 - 001, CS1500, Computer Programming I, 3, "Mendez, Ivan", MWF, 2:00P - 2:50P
 CS1500 - 002, CS1500, Computer Programming I (LAB), 0, "Mendez, Ivan", Arr, Arr
 CS1500 - 003, CS1500, Computer Programming I, 3, "TBA", TBA, TBA
@@ -93,7 +93,7 @@ PHIL4401 - 007, PHIL4401, Professional Ethics, 3, "Brown, Mark", Arr, Arr
 MATH1410 - 001, MATH1410, Calculus I, 4, "Martin, David", MWF, 11:00A - 11:50A
 MATH1410 - 002, MATH1410, Calculus I, 4, "Wu, Yanhong", MWF, 2:00P - 2:50P
 MATH1412 - 001, MATH1412, Calculus I (LAB), 1, "Bortner, Cashous", M, 3:00P - 4:50P
-MATH1420 - 001, MATH1420, Calculus II, 4, "Jue, Brian", T, MWF, 8:30A - 9:20A
+MATH1420 - 001, MATH1420, Calculus II, 4, "Jue, Brian", TMWF, 8:30A - 9:20A
 MATH1422 - 001, MATH1422, Calculus II (LAB), 1, "Bortner, Cashous", W, 3:00P - 4:50P
 MATH 1620 - 001, MATH1620, Probability and Statistics, 4, "N/A, N/A", N/A
 MATH1600 - 001, MATH1600, Statistics, 4, "Wu, Yanhong", MWF, 12:00P - 12:50P

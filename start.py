@@ -5,6 +5,14 @@ import json
 import re
 from bson import ObjectId
 
+import os
+import shutil
+
+
+
+
+
+
 import webbrowser
 
 class MyFlaskApp:
@@ -65,8 +73,9 @@ class MyFlaskApp:
             # Extract form data
             name = request.form.get('name', '')
             year = request.form.get('year', '')
+            major = request.form.get('major', '')
             if year == None:
-                pass
+                year = 1
             else: 
                 year = int(year)
                 
@@ -79,26 +88,55 @@ class MyFlaskApp:
                 hours_can_work = 30
             
             uploaded_file = request.files.get('file')
-
-            # Process the uploaded file if any
-            if uploaded_file:
-                uploaded_file = True
             
             # Additional form fields processing
             teacher_liked = request.form.get('teacherLiked', '')
             teacher_hate = request.form.get('teacherHate', '')
-
-            # Store form data in a dictionary
-            data = {
+            
+            data_for_telling = {
                 "name": name,
+                "major":major,
                 "year": year,
-                "hours_can_work": hours_can_work,
-                "teacher_liked": teacher_liked,
-                "teacher_hate": teacher_hate
+                "hours_can_work": hours_can_work
             }
 
+            
+            
+            #What I need to do
+            """ 
+            Give information to the model such as requirements for classes for the major in question
+            what classes the person has taken should be in transcripts file that was given to us
+            """
+            
+            
+            csvs = []
+            # Get the directory of the script
+            script_directory = os.path.dirname(__file__)
+
+            # Specify the folder path relative to the script directory
+            folder_path = os.path.join(script_directory, 'csvs')
+            # Iterate through items (files and subfolders) in the folder
+            for item in os.listdir(folder_path):
+                item_path = os.path.join(folder_path, item)
+                if os.path.isfile(item_path):
+                    # give the file to Anthony
+                    csvs.append(item)
+                    print(f'File: {item}  {type(item)}')
+            
+            # Store form data in a dictionary
+            data_for_model = {
+                "major": major,
+                "teacher_liked": teacher_liked,
+                "teacher_hate": teacher_hate,
+                "csvs": csvs,
+                "transcript": uploaded_file
+            }
+            
+            # give data_for_model to anthony
+            
+            
             # Render a template with the data
-            return render_template('genieBot.html', dictionary=data)
+            return render_template('genieBot.html', dictionary=data_for_telling)
 
         # If GET request, render the form
         return render_template('genieBot.html')
@@ -108,6 +146,9 @@ class MyFlaskApp:
     ######## HELPER FUCTIONS ########
     #################################
     #################################
+    
+    
+        
         
     def parseStringToDict(self, stringedDictionary:str):
         # Define a regular expression pattern to match key-value pairs
