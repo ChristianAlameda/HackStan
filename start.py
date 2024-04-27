@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #pip install flask 
 #pip install requests
 from flask import Flask, render_template, request, url_for, redirect, session, jsonify
@@ -135,3 +136,10 @@ class MyFlaskApp:
 if __name__ == "__main__":
     x = MyFlaskApp()
     x.app.run(host="0.0.0.0", port=5000)
+=======
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
+>>>>>>> 8f9e974439dc2250bcb3513c542684789e524565
