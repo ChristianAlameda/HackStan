@@ -71,13 +71,24 @@ class MyFlaskApp:
             # Extract form data
             name = request.form.get('name', '')
             year = request.form.get('year', '')
+            if year == None:
+                pass
+            else: 
+                year = int(year)
+                
             hours_can_work = request.form.get('hoursCanWork', '')
+            if hours_can_work == 'time1':
+                hours_can_work = 10
+            if hours_can_work == 'time2':
+                hours_can_work = 20
+            if hours_can_work == 'time3':
+                hours_can_work = 30
+            
             uploaded_file = request.files.get('file')
 
             # Process the uploaded file if any
             if uploaded_file:
-                # Do something with the file
-                pass
+                uploaded_file = True
             
             # Additional form fields processing
             teacher_liked = request.form.get('teacherLiked', '')
