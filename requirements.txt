@@ -1,0 +1,4 @@
+Flask==3.0.3
+psutil==5.9.4
+pymongo==4.5.0
+Requests==2.31.0
