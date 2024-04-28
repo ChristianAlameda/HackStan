@@ -5,6 +5,8 @@ import psutil
 import json
 
 port = None
+address = None
+cookie = None
 
 def find_chat_with_rtx_port():
     global port
@@ -15,7 +17,7 @@ def find_chat_with_rtx_port():
                 process = psutil.Process(host.pid)
                 if "ChatWithRTX" in process.exe():
                     test_port = host.laddr.port
-                    url = f"http://127.0.0.1:{test_port}/queue/join"
+                    url = f"http://{address}:{test_port}/queue/join"
                     response = requests.post(url, data="", timeout=0.05)
                     if response.status_code == 422:
                         port = test_port
@@ -33,12 +35,12 @@ def join_queue(session_hash, fn_index, port, chatdata):
     }
     json_string = json.dumps(python_object)
 
-    url = f"http://127.0.0.1:{port}/queue/join"
+    url = f"http://{address}:{port}/queue/join"
     response = requests.post(url, data=json_string)
     # print("Join Queue Response:", response.json())
 
 def listen_for_updates(session_hash, port):
-    url = f"http://127.0.0.1:{port}/queue/data?session_hash={session_hash}"
+    url = f"http://{address}:{port}/queue/data?session_hash={session_hash}"
 
     response = requests.get(url, stream=True)
     for line in response.iter_lines():
@@ -66,19 +68,25 @@ def send_message(message):
     join_queue(session_hash, 34, port, chatdata)
     return listen_for_updates(session_hash, port)
 
-def connect(test_url, test_port):
+def connect(test_url, test_port, test_cookie):
     global port
-    url = f"http://"+test_url+":{test_port}/queue/join"
-    response = requests.post(url, data="", timeout=0.05)
+    global address
+    global cookie
+    url = f"http://{test_url}:{test_port}?cookie={test_cookie}&/queue/join"
+    # url = f"http://{test_url}:{test_port}/queue/join"
+    response = requests.post(url, data="", timeout=1)#0.05)
+    print(url, ' says ', response)
     if response.status_code == 422:
         port = test_port
+        address = test_url
+        cookie = test_cookie
         return False
     else:
         return True
 
-def send_message_public(message, test_url, test_port):
+def send_message_public(message, test_url, test_port, cookie):
     if not port:
-        connect(test_url, test_port)
+        connect(test_url, test_port, cookie)
     if not port:
         raise Exception("Failed to find a server port for 'Chat with RTX'. Ensure the server is running.")
 
