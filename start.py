@@ -8,6 +8,7 @@ from bson import ObjectId
 import os
 import shutil
 
+import pyttsx3
 
 
 
@@ -153,9 +154,22 @@ class MyFlaskApp:
         if request.method == 'POST':
             question = request.form.get('question')
 
-            
+
             # Perform processing to generate the answer (dummy response for demonstration)
             answer = "This is the answer to your question: " + question
+
+            # Initialize the TTS engine
+            engine = pyttsx3.init()
+
+            # Set properties (optional)
+            engine.setProperty('rate', 150)  # Speed of speech
+            engine.setProperty('volume', 1)  # Volume (0.0 to 1.0)
+
+            # Convert text to speech
+            engine.say(answer)
+
+            # Wait for the speech to finish
+            engine.runAndWait()
 
             # Return the answer
             return render_template('ask.html', answer=answer)
