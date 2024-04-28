@@ -7,38 +7,40 @@
     <link rel="stylesheet" type="text/css" href="/static/styles/style.css">
 </head>
 <body>
-    <form action="genieBot" style="display:inline-block" method="POST" enctype="multipart/form-data" id="myForm">
-        <p style="color:white;">Choose which preset you would like to edit:</p><br>
-
-        NAME<br>
-        <input type="text" name="name" id="name" value=""><br>
-
-        MAJOR<br>
-        <input type="radio" name="major"  value="CS"> Computer Science<br>
-        <input type="radio" name="major"  value="MATH"> Mathematics<br>
-
-        YEAR<br>
-        <input type="radio" name="year"  value="1"> year 1<br>
-        <input type="radio" name="year"  value="2"> year 2<br>
-        <input type="radio" name="year"  value="3"> year 3<br>
-        <input type="radio" name="year"  value="4"> year 3<br>
-
-        Hours Can work<br>
-        <input type="radio" name="hoursCanWork"  value="time1"> 0-10<br>
-        <input type="radio" name="hoursCanWork"  value="time2"> 11-20<br>
-        <input type="radio" name="hoursCanWork"  value="time3"> 21-30<br>
-
-        FILE UPLOAD (YOUR TRANSCRIPT) <br>
-        <input type="file" id="myFile" name="file"><br>
-
-        TEACHER LIKED<br>
-        <input type="text" name="teacher-liked" id="teacher-liked" value=""><br>
-
-        TEACHER HATED<br>
-        <input type="text" name="teacher-hated" id="teacher-hated" value=""><br>
-
-        SUBMIT<br>
-        <input type="submit">
-    </form>
+    <div class="form-container">
+        <form action="genieBot" method="POST" enctype="multipart/form-data" id="myForm">
+            <div class="form-content">
+                <div class="centerhead"><h1><p style="color:white;">Choose which preset you would like to edit:</p></h1></div>
+                <div class="topleft">
+                    <label for="name">NAME</label>
+                    <input type="text" name="name" id="name" value=""><br>
+                    <label>MAJOR</label>
+                    <input type="radio" name="major"  value="CS"> Computer Science
+                    <input type="radio" name="major"  value="MATH"> Mathematics<br>
+                    <label>YEAR</label>
+                    <input type="radio" name="year"  value="1"> Year 1
+                    <input type="radio" name="year"  value="2"> Year 2
+                    <input type="radio" name="year"  value="3"> Year 3
+                    <input type="radio" name="year"  value="4"> Year 4<br>
+                </div>
+                <div class="center">
+                    <label>Hours Can work</label>
+                    <input type="radio" name="hoursCanWork"  value="time1"> 0-10
+                    <input type="radio" name="hoursCanWork"  value="time2"> 11-20
+                    <input type="radio" name="hoursCanWork"  value="time3"> 21-30<br>
+                </div>
+                <div class="topright">
+                    <label for="teacher-liked">TEACHER LIKED</label>
+                    <input type="text" name="teacher-liked" id="teacher-liked" value=""><br>
+                    <label for="teacher-hated">TEACHER HATED</label>
+                    <input type="text" name="teacher-hated" id="teacher-hated" value=""><br>
+                </div>
+                <div class="centersubmit">
+                    <input type="submit" value="SUBMIT">
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
+
