@@ -8,6 +8,8 @@ from bot.bot import Bot
 import os
 import shutil
 
+
+
 import pyttsx3
 
 
@@ -22,6 +24,7 @@ class MyFlaskApp:
         self.chatbot = Bot()
         self.curr_email = ''
         self.selected_result = ''
+        
 
         # Initialize Flask app
         self.app = Flask(__name__, static_url_path='/static')   # COLE - Added "static_url_path='/static" to reference static files in code
@@ -35,7 +38,6 @@ class MyFlaskApp:
         self.app.add_url_rule('/genieBot', 'genieBot', self.genieBot, methods=['POST','GET'])
         
         self.app.add_url_rule('/ask', 'ask', self.ask, methods=['POST','GET'])
-        
         
         
         
@@ -138,9 +140,12 @@ class MyFlaskApp:
             
             
             
+            # history = self.chatbot.getHistory()
+            
+            # history = self.database.getPosts({})
             
             # Render a template with the data
-            return render_template('genieBot.html', dictionary=data_for_telling)
+            return render_template('genieBot.html')
 
         # If GET request, render the form
         return render_template('genieBot.html')
@@ -160,7 +165,13 @@ class MyFlaskApp:
             # answer = "This is the answer to your question: " + question
             answer = self.chatbot.chat(question)
             print(answer)
-
+            
+            # insertion = {
+            #     "question":question,
+            #     "answer":answer
+            # }
+            
+            # self.database.insertPost(insertion)
             # Initialize the TTS engine
             engine = pyttsx3.init()
 
@@ -175,7 +186,9 @@ class MyFlaskApp:
             engine.runAndWait()
 
             # Return the answer
-            return redirect('/')
+            return render_template('genieBot.html', history=self.chatbot.getHistory())
+            
+            return redirect('/genieBot')
 
     
         

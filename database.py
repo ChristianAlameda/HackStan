@@ -2,16 +2,15 @@
 # download mongodb version 7.0
 import pymongo
 class Database:
-    def __init__(self, database):
+    def __init__(self):
         self.myclient = False
         self.mydb = False
         self.mycol = False
-        self.database = database
     
     def connect(self):
         self.myclient = pymongo.MongoClient("mongodb://localhost:27017/")
         self.mydb = self.myclient["HackStan"]
-        self.mycol = self.mydb[self.database]
+        self.mycol = self.mydb["CSCLASSES"]
         
     def insertPost(self, post:dict):
         self.mycol.insert_one(post).inserted_id
