@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, url_for, redirect, session, j
 import json
 import re
 from bson import ObjectId
-
+from bot.bot import Bot
 import os
 import shutil
 
@@ -19,6 +19,7 @@ import webbrowser
 class MyFlaskApp:
     def __init__(self):
         # GLOBAL VARS
+        self.chatbot = Bot()
         self.curr_email = ''
         self.selected_result = ''
 
@@ -153,10 +154,12 @@ class MyFlaskApp:
     def ask(self):
         if request.method == 'POST':
             question = request.form.get('question')
-
+            
 
             # Perform processing to generate the answer (dummy response for demonstration)
-            answer = "This is the answer to your question: " + question
+            # answer = "This is the answer to your question: " + question
+            answer = self.chatbot.chat(question)
+            print(answer)
 
             # Initialize the TTS engine
             engine = pyttsx3.init()
