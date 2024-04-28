@@ -6,3 +6,68 @@ body {
     /* Set background repeat behavior */
     background-repeat: no-repeat; /* Prevent repetition */
 }
+
+.form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; /* Include padding in the width and height */
+    display: flex; /* Use flexbox to arrange children horizontally */
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.form-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px; /* Adjust as needed */
+}
+
+.centerhead {
+    position: absolute;
+    top: 8px;
+    left: 64px;
+    right: 64px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .center{
+    position: absolute;
+    top: 128px;
+    left: 64px;
+    right: 64px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .topright {
+    position: absolute;
+    top: 128px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+  .topleft {
+    position: absolute;
+    top: 128px;
+    left: 16px;
+    font-size: 18px;
+  }
+  .centersubmit {
+    position: absolute;
+    top: 40%;
+    left: 64px;
+    right: 64px;
+    text-align: center;
+    font-size: 18px;
+  }
+.form-column label,
+.form-column input {
+    display: block;
+    margin-bottom: 10px;
+}
