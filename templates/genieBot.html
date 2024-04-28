@@ -13,16 +13,23 @@
             /* Set background repeat behavior */
             background-repeat: no-repeat; /* Prevent repetition */
         }
+        .myDiv {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+        }
     </style>
 </head>
 <body>
     <form action="ask" style="display:inline-block" method="POST" enctype="multipart/form-data" id="myForm">
+        
         QUESTION<br>
         <input type="text" name="question" id="questionInput" value=""><br>
-        SUBMIT<br>
         <input type="submit">
     </form>
+    <div class="myDiv">
     {{history}}
-    
+    </div>
 </body>
 </html>
