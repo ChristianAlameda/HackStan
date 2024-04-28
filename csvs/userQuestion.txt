@@ -1,0 +1,56 @@
+Hello.
+
+What is my progress so far?
+
+What classes do I need to finish?
+
+I want to schedule for next semester.
+
+No, there's nothing else you can do for me.
+
+Are there any asynchronous classes that I can take next semester?
+
+Are there any hybrid classes that I can take next semester?
+
+Are there any prerequisites needed for [input class name]?
+
+What classes should I prioritize first?
+
+Give me a list of all the classes taught by [input name of professor].
+
+What classes would you recommend taking together?
+
+What classes would you recommend not taking together?
+
+What classes would you suggest taking in close proximity to each other, but taking together?
+
+Are there any summer or winter term courses available that could help me progress faster?
+
+What classes would be the best to take over the summer?
+
+What classes would be the best to take over the winter?
+
+I have [input number of hours] hours per week to work on school and attend classes, based on what I have told you, what combination of classes would be best to take next semester?
+
+Are there any alternative options if the classes I want to take are full?
+
+How big is the waitlist for [input class name]?
+
+What is the class sizes for [input class name]?
+
+Are there any specific GPA requirements for enrolling in certain courses or programs?
+
+What classes (if any) would you recommend me taking before [input class name]?
+
+How many credit no credit classes can I take (if any)?
+
+I have taken [input number] credit no credit classes, how many more credit no credit classes can I take (if any)?
+
+Which classes that I need are offered on [input day(s)]?
+
+Which classes that I need are offered at [input time(s)]?
+
+
+
+
+
