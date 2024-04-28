@@ -1,4 +1,4 @@
-import rtx_api_3_5 as rtx_api
+import bot.rtx_api_3_5 as rtx_api
 from threading import Thread
 
 class Bot():
