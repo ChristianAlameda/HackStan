@@ -184,9 +184,10 @@ class MyFlaskApp:
 
             # Wait for the speech to finish
             engine.runAndWait()
+            
 
             # Return the answer
-            return redirect('/')
+            return render_template('genieBot.html', history=self.chatbot.getHistory())
 
     
         
