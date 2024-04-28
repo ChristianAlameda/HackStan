@@ -4,15 +4,14 @@ import string
 import psutil
 import json
 
-port = None
+port = 39941
+address = '76.20.82.68'
 
 def find_chat_with_rtx_port():
-    global port
-    test_port = 39941
-    url = f"http://76.20.82.68:{test_port}/queue/join"
+    url = f"http://{address}:{port}/queue/join"
     response = requests.post(url, data="", timeout=1)
     if response.status_code == 422:
-        port = test_port
+        print('Error in connecting to '+url+str(response))
         return
 
 def join_queue(session_hash, fn_index, port, chatdata):
@@ -25,12 +24,12 @@ def join_queue(session_hash, fn_index, port, chatdata):
     }
     json_string = json.dumps(python_object)
 
-    url = f"http://76.20.82.68:{port}/queue/join"
+    url = f"http://{address}:{port}/queue/join"
     response = requests.post(url, data=json_string)
     # print("Join Queue Response:", response.json())
 
 def listen_for_updates(session_hash, port):
-    url = f"http://76.20.82.68:{port}/queue/data?session_hash={session_hash}"
+    url = f"http://{address}:{port}/queue/data?session_hash={session_hash}"
 
     response = requests.get(url, stream=True)
     for line in response.iter_lines():

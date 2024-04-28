@@ -186,9 +186,7 @@ class MyFlaskApp:
             engine.runAndWait()
 
             # Return the answer
-            return render_template('genieBot.html', history=self.chatbot.getHistory())
-            
-            return redirect('/genieBot')
+            return redirect('/')
 
     
         

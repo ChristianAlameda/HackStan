@@ -1,0 +1,4 @@
+Chat with RTX uses retrieval-augmented generation (RAG), NVIDIA TensorRT-LLM software and NVIDIA RTX acceleration to bring generative AI capabilities to local, GeForce-powered Windows PCs. Users can quickly, easily connect local files on a PC as a dataset to an open-source large language model like Mistral or Llama 2, enabling queries for quick, contextually relevant answers.
+
+Rather than searching through notes or saved content, users can simply type queries. Chat with RTX will scan local files the user points it to and provide the answer with context.
+
