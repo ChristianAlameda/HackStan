@@ -175,7 +175,7 @@ class MyFlaskApp:
             engine.runAndWait()
 
             # Return the answer
-            return redirect('/')
+            return redirect('/genieBot')
 
     
         
