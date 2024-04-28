@@ -4,57 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titus' Counseling</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <style>
-        body {
-            /* Set background image */
-            background-image: url('/static/img/inside_of_room.png');
-            /* Set background size */
-            background-size: cover; /* Adjust as needed */
-            /* Set background repeat behavior */
-            background-repeat: no-repeat; /* Prevent repetition */
-        }
-    </style>
 </head>
 <body>
-    <h1>Q&A</h1>
-    <input type="text" id="questionInput" placeholder="Ask a question and press Enter">
-    <br>
-    <button onclick="askQuestion()">Ask</button>
-    <br>
-    <ul id="backlog"></ul>
-    <br>
-    <textarea id="answerArea" placeholder="Answer"></textarea>
-    
-    <script>
-        function askQuestion() {
-            var question = document.getElementById("questionInput").value;
-            if (question.trim() !== "") {
-                var backlog = document.getElementById("backlog");
-                var listItem = document.createElement("li");
-                listItem.appendChild(document.createTextNode(question));
-                backlog.appendChild(listItem);
-                
-                // Send question to backend
-                $.ajax({
-                    type: "POST",
-                    url: "/ask",
-                    data: { question: question },
-                    success: function(response) {
-                        document.getElementById("answerArea").value = response.answer;
-                        listItem.remove(); // Remove question from backlog
-                    },
-                    error: function(xhr, status, error) {
-                        console.error(error);
-                    }
-                });
-                
-                document.getElementById("questionInput").value = ""; // Clear input field
-            }
-        }
-    </script>
+    <form action="ask" style="display:inline-block" method="POST" enctype="multipart/form-data" id="myForm">
+        QUESTION<br>
+        <input type="text" name="question" id="questionInput" value=""><br>
+        SUBMIT<br>
+        <input type="submit">
+    </form>
     
 </body>
 </html>
-
-
