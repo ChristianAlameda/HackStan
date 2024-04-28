@@ -172,7 +172,7 @@ class MyFlaskApp:
             engine.runAndWait()
 
             # Return the answer
-            return render_template('ask.html', answer=answer)
+            return redirect('/')
 
     
         
