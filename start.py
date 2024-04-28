@@ -32,6 +32,9 @@ class MyFlaskApp:
         
         self.app.add_url_rule('/genieBot', 'genieBot', self.genieBot, methods=['POST','GET'])
         
+        self.app.add_url_rule('/ask', 'ask', self.ask, methods=['POST','GET'])
+        
+        
         
         
         
@@ -74,10 +77,7 @@ class MyFlaskApp:
             name = request.form.get('name', '')
             year = request.form.get('year', '')
             major = request.form.get('major', '')
-            if year == None:
-                year = 1
-            else: 
-                year = int(year)
+            
                 
             hours_can_work = request.form.get('hoursCanWork', '')
             if hours_can_work == 'time1':
@@ -135,6 +135,8 @@ class MyFlaskApp:
             # give data_for_model to anthony
             
             
+            
+            
             # Render a template with the data
             return render_template('genieBot.html', dictionary=data_for_telling)
 
@@ -147,6 +149,17 @@ class MyFlaskApp:
     #################################
     #################################
     
+    def ask(self):
+        if request.method == 'POST':
+            question = request.form.get('question')
+
+            
+            # Perform processing to generate the answer (dummy response for demonstration)
+            answer = "This is the answer to your question: " + question
+
+            # Return the answer
+            return render_template('ask.html', answer=answer)
+
     
         
         
