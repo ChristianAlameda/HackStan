@@ -145,7 +145,9 @@ class MyFlaskApp:
             # history = self.database.getPosts({})
             
             # Render a template with the data
-            return render_template('genieBot.html')
+            return render_template('genieBot.html', history=self.chatbot.getHistory())
+            
+            # return render_template('genieBot.html')
 
         # If GET request, render the form
         return render_template('genieBot.html')
@@ -173,20 +175,23 @@ class MyFlaskApp:
             
             # self.database.insertPost(insertion)
             # Initialize the TTS engine
-            engine = pyttsx3.init()
+            # engine = pyttsx3.init()
 
-            # Set properties (optional)
-            engine.setProperty('rate', 150)  # Speed of speech
-            engine.setProperty('volume', 1)  # Volume (0.0 to 1.0)
+            # # Set properties (optional)
+            # engine.setProperty('rate', 150)  # Speed of speech
+            # engine.setProperty('volume', 1)  # Volume (0.0 to 1.0)
 
-            # Convert text to speech
-            engine.say(answer)
+            # # Convert text to speech
+            # engine.say(answer)
 
-            # Wait for the speech to finish
-            engine.runAndWait()
+            # # Wait for the speech to finish
+            # engine.runAndWait()
+            
 
             # Return the answer
-            return redirect('/')
+            return render_template('ask.html', history=self.chatbot.getHistory())
+            
+            return redirect('/genieBot')
 
     
         
