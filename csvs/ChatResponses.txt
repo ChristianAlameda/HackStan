@@ -3,7 +3,7 @@ Hi, what can I do for you today?
 Sure, I can do that for you! 
 First, What degree are you working towards?
 
-I see, you're trying to earn a Bacherlor of Science in Mathematics, awesome!
+I see, you're trying to earn a Bachelor of Science in Mathematics, awesome!
 I see, you're trying to earn a Bachelor of Science in Computer Science, awesome!
 
 Tell me what classes you've taken already just so I know where I can start.
