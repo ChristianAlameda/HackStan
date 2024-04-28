@@ -145,7 +145,10 @@ class MyFlaskApp:
             # history = self.database.getPosts({})
             
             # Render a template with the data
-            return render_template('genieBot.html', history=self.chatbot.getHistory())
+            if self.chatbot.getHistory() == []:
+                return render_template('genieBot.html', history='')
+            else:
+                return render_template('genieBot.html', history=self.chatbot.getHistory()[-1])
             
             # return render_template('genieBot.html')
 
@@ -189,7 +192,7 @@ class MyFlaskApp:
             
 
             # Return the answer
-            return render_template('ask.html', history=self.chatbot.getHistory())
+            return render_template('ask.html', history=self.chatbot.getHistory()[-1])
             
             return redirect('/genieBot')
 

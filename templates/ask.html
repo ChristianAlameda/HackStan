@@ -13,6 +13,13 @@
             /* Set background repeat behavior */
             background-repeat: no-repeat; /* Prevent repetition */
         }
+        .myDiv {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            right: 50%;
+            font-size: 18px;
+        }
     </style>
 </head>
 <body>
@@ -22,6 +29,7 @@
         SUBMIT<br>
         <input type="submit">
     </form>
-    {{history}}
-    
+    <div class="myDiv">
+        <br>{{history}}<br>
+    </div>
 </body>
